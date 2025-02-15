@@ -1,0 +1,50 @@
+﻿@model Tuple<List<Restino.App.ViewModels.AccommodationListViewModel>, List<Restino.App.ViewModels.CategoryViewModel>>
+
+@{
+    var successMessage = TempData["Message"] as string;
+}
+
+<div class="cat container">
+    <h2 class="success">@successMessage</h2>
+    <div class="title-flex">
+        <h2 class="h2-1">Categories</h2>
+        <a asp-controller="Category" asp-action="Overview" class="category-overview-btn">View All</a>
+    </div>
+    <div class="cat-flex">
+        @foreach (var category in Model.Item2)
+        {
+            <div class="cat-block">
+                <img class="cat-img" src="@category.ImgUrl" alt="">
+                <div class="cat-content">
+                    <div>
+                        <h2 class="cat-header">@category.CategoryName</h2>
+                        <a asp-controller="Category" asp-action="Details" asp-route-Id="@category.CategoriesId" class="cat-btn">Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="hot">
+    <div class="container">
+        <h2 class="h2-1">Hot proposition</h2>
+        <div class="hot-flex">
+            @foreach (var accommodation in Model.Item1)
+            {
+                <div class="hot-item">
+                    <img src="@accommodation.ImgUrl" alt="image of accommodation" class="hot-img">
+                    <div class="hot-content">
+                        <h2 class="hot-title">@accommodation.Name</h2>
+                        <p class="hot-description">@accommodation.ShortDescription</p>
+                        <p class="hot-description">Category: @accommodation.Category.CategoryName</p>
+                        <p class="hot-description">Price: @accommodation.Price per day</p>
+                        <p class="hot-description">Capacity: @accommodation.Capacity</p>
+                        <p class="hot-description">Address: @accommodation.Address</p>
+                        <a asp-controller="Accommodation" asp-action="Details" asp-route-AccommodationId="@accommodation.AccommodationsId" class="hot-btn">Details</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

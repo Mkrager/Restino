@@ -1,0 +1,884 @@
+2025-01-21 12:00:23.897 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:00:23.921 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:00:24.068 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:00:24.071 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:00:24.072 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:09:32.912 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:09:32.936 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:09:33.045 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:09:33.046 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:09:33.047 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:12:26.662 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:12:26.691 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:12:26.811 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:12:26.813 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:12:26.814 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:12:51.374 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:12:51.394 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:12:51.507 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:12:51.508 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:12:51.509 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:13:30.012 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:13:30.037 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:13:30.170 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:13:30.178 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:13:30.179 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:14:08.193 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:14:08.225 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:14:08.444 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:14:08.450 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:14:08.455 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:15:01.651 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:15:01.684 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:15:01.804 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:15:01.805 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:15:01.806 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:16:50.385 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:16:50.431 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:16:50.601 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:16:50.612 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:16:50.619 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:57:25.868 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:57:25.897 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:57:26.011 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:57:26.012 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:57:26.013 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:58:27.455 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:58:27.476 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:58:27.575 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:58:27.578 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:58:27.579 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 12:58:55.327 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 12:58:55.382 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 12:58:55.478 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 12:58:55.479 +02:00 [INF] Hosting environment: Development
+2025-01-21 12:58:55.480 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:04:10.592 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:04:10.616 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:04:10.709 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:04:10.711 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:04:10.711 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:05:08.885 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:05:08.917 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:05:09.019 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:05:09.021 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:05:09.022 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:06:12.055 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:06:12.085 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:06:12.183 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:06:12.184 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:06:12.185 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:07:44.814 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:07:44.845 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:07:44.936 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:07:44.938 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:07:44.939 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:09:01.414 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:09:01.438 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:09:01.543 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:09:01.545 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:09:01.545 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:10:05.544 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:10:05.565 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:10:05.657 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:10:05.658 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:10:05.659 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:10:37.891 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:10:37.915 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:10:38.013 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:10:38.015 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:10:38.016 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:11:01.665 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:11:01.697 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:11:01.791 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:11:01.792 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:11:01.793 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:13:33.966 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:13:33.989 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:13:34.092 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:13:34.095 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:13:34.097 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:17:07.506 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:17:07.529 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:17:07.634 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:17:07.635 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:17:07.636 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:18:20.055 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:18:20.080 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:18:20.177 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:18:20.179 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:18:20.179 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:20:11.004 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:20:11.025 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:20:11.113 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:20:11.114 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:20:11.115 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:21:14.032 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:21:14.060 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:21:14.156 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:21:14.157 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:21:14.158 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:22:09.103 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:22:09.132 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:22:09.221 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:22:09.223 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:22:09.224 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:22:31.892 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:22:31.920 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:22:32.013 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:22:32.015 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:22:32.015 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:24:32.808 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:24:32.868 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:24:32.998 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:24:33.006 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:24:33.040 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:43:48.405 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:43:48.427 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:43:48.528 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:43:48.530 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:43:48.531 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 13:44:46.585 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 13:44:46.604 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 13:44:46.737 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:44:46.785 +02:00 [INF] Hosting environment: Development
+2025-01-21 13:44:46.789 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:04:40.245 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:04:40.263 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:04:40.331 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:04:40.332 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:04:40.333 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:05:44.942 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:05:44.963 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:05:45.047 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:05:45.050 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:05:45.051 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:06:05.201 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:06:05.220 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:06:05.307 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:06:05.308 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:06:05.308 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:07:38.690 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:07:38.710 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:07:38.783 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:07:38.785 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:07:38.785 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:11:30.116 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:11:30.138 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:11:30.221 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:11:30.222 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:11:30.223 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:13:14.835 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:13:14.880 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:13:15.007 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:13:15.009 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:13:15.009 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:24:22.109 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:24:22.134 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:24:22.219 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:24:22.220 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:24:22.221 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:25:42.646 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:25:42.695 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:25:42.797 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:25:42.798 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:25:42.800 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:28:17.836 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:28:17.875 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:28:17.995 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:28:17.996 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:28:17.997 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:32:43.478 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:32:43.500 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:32:43.608 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:32:43.609 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:32:43.611 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:34:14.093 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:34:14.118 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:34:14.221 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:34:14.222 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:34:14.223 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:35:50.845 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:35:50.874 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:35:50.965 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:35:50.966 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:35:50.967 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:38:19.095 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:38:19.116 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:38:19.223 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:38:19.225 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:38:19.269 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:38:53.000 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:38:53.020 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:38:53.120 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:38:53.122 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:38:53.122 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:39:39.294 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:39:39.318 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:39:39.466 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:39:39.469 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:39:39.469 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:42:30.870 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:42:30.899 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:42:30.998 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:42:31.000 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:42:31.000 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:45:32.011 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:45:32.032 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:45:32.153 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:45:32.155 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:45:32.156 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:46:30.952 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:46:30.976 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:46:31.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:46:31.065 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:46:31.067 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:46:57.352 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:46:57.374 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:46:57.464 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:46:57.466 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:46:57.467 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:49:47.364 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:49:47.387 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:49:47.480 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:49:47.482 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:49:47.483 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:50:53.149 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:50:53.187 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:50:53.283 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:50:53.285 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:50:53.286 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:53:09.588 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:53:09.626 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:53:09.752 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:53:09.755 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:53:09.756 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:53:58.174 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:53:58.228 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:53:58.359 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:53:58.389 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:53:58.397 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:54:44.882 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:54:44.906 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:54:45.005 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:54:45.007 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:54:45.007 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:55:09.393 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:55:09.417 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:55:09.534 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:55:09.553 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:55:09.555 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:56:21.478 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:56:21.508 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:56:21.623 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:56:21.624 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:56:21.625 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:56:40.733 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:56:40.764 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:56:40.852 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:56:40.854 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:56:40.855 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:57:07.325 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:57:07.343 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:57:07.455 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:57:07.456 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:57:07.457 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 14:57:56.912 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 14:57:56.937 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 14:57:57.018 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:57:57.019 +02:00 [INF] Hosting environment: Development
+2025-01-21 14:57:57.020 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:07:25.698 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:07:25.724 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:07:25.822 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:07:25.823 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:07:25.825 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:11:53.642 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:11:53.668 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:11:53.762 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:11:53.763 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:11:53.764 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:12:36.540 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:12:36.562 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:12:36.637 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:12:36.638 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:12:36.639 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:15:10.230 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:15:10.252 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:15:10.347 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:15:10.349 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:15:10.350 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:15:53.855 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:15:53.872 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:15:53.943 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:15:53.944 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:15:53.945 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:16:38.878 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:16:38.899 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:16:38.981 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:16:38.982 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:16:38.983 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:17:59.147 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:17:59.165 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:17:59.235 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:17:59.236 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:17:59.236 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:19:01.066 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:19:01.092 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:19:01.185 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:19:01.186 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:19:01.187 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:20:25.656 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:20:25.674 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:20:25.764 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:20:25.765 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:20:25.766 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 15:21:11.123 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 15:21:11.143 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 15:21:11.221 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:21:11.222 +02:00 [INF] Hosting environment: Development
+2025-01-21 15:21:11.223 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 16:48:51.593 +02:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserAccommodation_ApplicationUserId] ON [UserAccommodation] ([ApplicationUserId]);
+2025-01-21 17:04:16.149 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 17:04:16.179 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 17:04:16.250 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:04:16.251 +02:00 [INF] Hosting environment: Development
+2025-01-21 17:04:16.252 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 17:05:20.543 +02:00 [WRN] No output formatter was found for content types '["text/plain","text/plain"]' to write the response.
+2025-01-21 17:05:20.667 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:05:20.682 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:05:20.686 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:0000000D": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:05:34.740 +02:00 [WRN] No output formatter was found for content types '["text/plain","text/plain"]' to write the response.
+2025-01-21 17:05:34.810 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:05:34.812 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:05:34.813 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:0000000F": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:05:43.957 +02:00 [WRN] No output formatter was found for content types '["text/plain","text/plain"]' to write the response.
+2025-01-21 17:05:44.027 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:05:44.029 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:05:44.030 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:00000011": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:06:05.071 +02:00 [WRN] No output formatter was found for content types '["text/plain","text/plain"]' to write the response.
+2025-01-21 17:06:05.150 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:06:05.153 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:06:05.154 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:00000019": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:06:59.114 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:06:59.116 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:06:59.117 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:0000001F": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:08:04.364 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:08:04.367 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:08:04.368 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:00000021": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:09:02.935 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:09:02.937 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:09:02.938 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:00000023": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:09:27.121 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:09:27.123 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:09:27.124 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:00000025": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:09:27.979 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:09:27.982 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:09:27.983 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:00000027": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:10:28.015 +02:00 [WRN] No output formatter was found for content types '["text/plain","text/plain"]' to write the response.
+2025-01-21 17:10:28.084 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:10:28.087 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:10:28.089 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:00000029": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:10:56.794 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:10:56.796 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:10:56.797 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:0000002B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:11:45.715 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:11:45.718 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-01-21 17:11:45.719 +02:00 [ERR] Connection id "0HN9Q5JFQ756R", Request id "0HN9Q5JFQ756R:0000002D": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.ConvertException(HttpContext context, Exception exception) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 32
+   at Restino.Api.Middleware.ExceptionHandlerMiddelware.Invoke(HttpContext context) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Middleware\ExceptionHandlerMiddelware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-01-21 17:16:29.459 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 17:16:29.480 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 17:16:29.574 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:16:29.576 +02:00 [INF] Hosting environment: Development
+2025-01-21 17:16:29.577 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 17:32:42.521 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 17:32:42.542 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 17:32:42.616 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:32:42.617 +02:00 [INF] Hosting environment: Development
+2025-01-21 17:32:42.618 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 17:33:59.725 +02:00 [ERR] Failed executing DbCommand (26ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AccommodationsId], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-01-21 17:33:59.742 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Identity.RestinoIdentityDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AccommodationsId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:80fdbd0b-c397-498d-8aa4-e6c1d3260332
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AccommodationsId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:80fdbd0b-c397-498d-8aa4-e6c1d3260332
+Error Number:207,State:1,Class:16
+2025-01-21 17:34:41.335 +02:00 [ERR] Failed executing DbCommand (18ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AccommodationsId], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-01-21 17:34:41.338 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Identity.RestinoIdentityDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AccommodationsId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:80fdbd0b-c397-498d-8aa4-e6c1d3260332
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AccommodationsId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:80fdbd0b-c397-498d-8aa4-e6c1d3260332
+Error Number:207,State:1,Class:16
+2025-01-21 17:35:28.144 +02:00 [ERR] Failed executing DbCommand (16ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AccommodationsId], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-01-21 17:35:28.146 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Identity.RestinoIdentityDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AccommodationsId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:80fdbd0b-c397-498d-8aa4-e6c1d3260332
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AccommodationsId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:80fdbd0b-c397-498d-8aa4-e6c1d3260332
+Error Number:207,State:1,Class:16
+2025-01-21 17:37:55.729 +02:00 [ERR] Failed executing DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[AspNetUsers]') AND [c].[name] = N'AccommodationsId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [AspNetUsers] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [AspNetUsers] DROP COLUMN [AccommodationsId];
+2025-01-21 17:39:42.970 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 17:39:42.987 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 17:39:43.058 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:39:43.059 +02:00 [INF] Hosting environment: Development
+2025-01-21 17:39:43.060 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 17:55:31.346 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 17:55:31.369 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 17:55:31.444 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:55:31.445 +02:00 [INF] Hosting environment: Development
+2025-01-21 17:55:31.446 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 18:00:42.716 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 18:00:42.735 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 18:00:42.815 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 18:00:42.816 +02:00 [INF] Hosting environment: Development
+2025-01-21 18:00:42.817 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 18:01:09.665 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 18:01:09.689 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 18:01:09.784 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 18:01:09.786 +02:00 [INF] Hosting environment: Development
+2025-01-21 18:01:09.787 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 18:03:00.850 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 18:03:00.875 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 18:03:00.973 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 18:03:00.974 +02:00 [INF] Hosting environment: Development
+2025-01-21 18:03:00.975 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 22:09:27.439 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 22:09:27.461 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 22:09:27.535 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 22:09:27.536 +02:00 [INF] Hosting environment: Development
+2025-01-21 22:09:27.537 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 22:14:51.630 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 22:14:51.647 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 22:14:51.714 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 22:14:51.715 +02:00 [INF] Hosting environment: Development
+2025-01-21 22:14:51.716 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 23:22:52.543 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 23:22:52.561 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 23:22:52.659 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:22:52.660 +02:00 [INF] Hosting environment: Development
+2025-01-21 23:22:52.661 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 23:23:41.006 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 23:23:41.027 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 23:23:41.100 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:23:41.101 +02:00 [INF] Hosting environment: Development
+2025-01-21 23:23:41.101 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 23:23:55.210 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Restino.Api.Controllers.AccommodationController.GetAccommodationById (Restino.Api)
+Restino.Api.Controllers.AccommodationController.GetAllUserAccommodations (Restino.Api)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:25:08.576 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 23:25:08.610 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 23:25:08.683 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:25:08.685 +02:00 [INF] Hosting environment: Development
+2025-01-21 23:25:08.686 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-21 23:25:18.849 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Restino.Api.Controllers.AccommodationController.GetAccommodationById (Restino.Api)
+Restino.Api.Controllers.AccommodationController.GetAllUserAccommodations (Restino.Api)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 23:26:45.658 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-21 23:26:45.676 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-21 23:26:45.747 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 23:26:45.748 +02:00 [INF] Hosting environment: Development
+2025-01-21 23:26:45.749 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api

@@ -1,0 +1,84 @@
+﻿@model AccommodationDetailViewModel
+
+@{
+    var categories = TempData["Categories"] as SelectList;
+    var message = TempData["Message"] as string;
+}
+
+<form id="updateForm" role="form" asp-action="Update" method="post">
+    <div class="new container">
+        <h1 class="message">@message</h1>
+        <div asp-validation-summary="All" class="error-text"></div>
+
+        <label for="Name" class="update-title">Name</label>
+        <input type="text" name="Name" id="Name" class="new-input" value="@Model.Name" />
+        <span asp-validation-for="Name" class="error-text"></span>
+
+        <label for="ShortDescription" class="update-title">Short Description</label>
+        <input type="text" name="ShortDescription" id="ShortDescription" class="new-input" value="@Model.ShortDescription" />
+        <span asp-validation-for="ShortDescription" class="error-text"></span>
+
+        <label for="LongDescription" class="update-title">Long Description</label>
+        <input type="text" name="LongDescription" id="LongDescription" class="new-input" value="@Model.LongDescription" />
+        <span asp-validation-for="LongDescription" class="error-text"></span>
+
+
+        <label for="Capacity" class="update-title">Capacity</label>
+        <input type="number" name="Capacity" id="Capacity" class="new-input" value="@Model.Capacity" />
+        <span asp-validation-for="Capacity" class="error-text"></span>
+
+        <label for="Address" class="update-title">Address</label>
+        <input type="text" name="Address" id="Address" class="new-input" value="@Model.Address" />
+        <span asp-validation-for="Address" class="error-text"></span>
+
+        <label for="Price" class="update-title">Price</label>
+        <input type="number" name="Price" id="Price" class="new-input" value="@Model.Price" />
+        <span asp-validation-for="Price" class="error-text"></span>
+
+        <label for="ImgUrl" class="update-title">Img URL</label>
+        <input type="text" name="ImgUrl" id="ImgUrl" class="new-input" value="@Model.ImgUrl" />
+        <span asp-validation-for="ImgUrl" class="error-text"></span>
+
+        <label for="CategoryId" class="update-title">Category</label>
+        <select name="CategoryId" id="CategoryId" class="new-input" >
+            @foreach (var item in categories)
+            {
+                <option value="@item.Value" selected="@(item.Value == Model.CategoryId.ToString() ? "selected" : null)">
+                    @item.Text
+                </option>
+            }
+        </select>
+        <span asp-validation-for="CategoryId" class="error-text"></span>
+
+        <button type="button" class="confirm-btn" onclick="updateAccommodation('@Model.AccommodationsId')">Update</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        function updateAccommodation(accommodationId) {
+            var formData = $('#updateForm').serializeArray();
+
+            formData.push({ name: "AccommodationsId", value: accommodationId });
+
+            $.ajax({
+                url: '@Url.Action("Update", "Accommodation")',
+                type: 'PUT',
+                data: formData,
+                success: function (response) {
+                    if (response.errors) {
+                        for (var key in response.errors) {
+                            var errorMessage = response.errors[key];
+                            $('#' + key).next('.error-text').text(errorMessage);
+                        }
+                    } else {
+                        window.location.href = "/Accommodation/Update/" + accommodationId;
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr.responseText);
+                }
+            });
+        }
+    </script>
+}

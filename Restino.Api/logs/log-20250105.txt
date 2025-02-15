@@ -1,0 +1,301 @@
+2025-01-05 16:17:49.552 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 16:17:49.570 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 16:17:49.647 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 16:17:49.648 +02:00 [INF] Hosting environment: Development
+2025-01-05 16:17:49.648 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 16:17:51.372 +02:00 [INF] HTTP GET / responded 404 in 0.4471 ms
+2025-01-05 16:17:52.988 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2432.2236 ms
+2025-01-05 16:17:53.170 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 52.8677 ms
+2025-01-05 16:17:56.310 +02:00 [INF] HTTP GET / responded 404 in 0.0640 ms
+2025-01-05 16:18:09.900 +02:00 [INF] HTTP POST /api/Category responded 200 in 248.5450 ms
+2025-01-05 16:18:20.475 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.3301 ms
+2025-01-05 16:19:00.510 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 16:19:00.537 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 16:19:00.635 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 16:19:00.637 +02:00 [INF] Hosting environment: Development
+2025-01-05 16:19:00.638 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 16:19:01.291 +02:00 [INF] HTTP GET / responded 404 in 1.7321 ms
+2025-01-05 16:19:02.982 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1410.7779 ms
+2025-01-05 16:19:03.147 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.9477 ms
+2025-01-05 16:19:14.518 +02:00 [INF] HTTP POST /api/Category responded 200 in 153.9930 ms
+2025-01-05 16:19:18.804 +02:00 [INF] HTTP POST /api/Category responded 200 in 98.0945 ms
+2025-01-05 17:07:12.697 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 17:07:12.715 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 17:07:12.780 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 17:07:12.781 +02:00 [INF] Hosting environment: Development
+2025-01-05 17:07:12.781 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 17:07:13.797 +02:00 [INF] HTTP GET / responded 404 in 0.6226 ms
+2025-01-05 17:07:16.253 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2208.5970 ms
+2025-01-05 17:07:16.430 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.9707 ms
+2025-01-05 17:07:30.050 +02:00 [INF] HTTP DELETE /api/Category/c119661c-1d5a-42c1-8819-6b0885af4d4a responded 204 in 193.4890 ms
+2025-01-05 17:07:37.638 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.5655 ms
+2025-01-05 17:08:44.296 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 17:08:44.316 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 17:08:44.392 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 17:08:44.393 +02:00 [INF] Hosting environment: Development
+2025-01-05 17:08:44.394 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 17:08:45.299 +02:00 [INF] HTTP GET / responded 404 in 1.5169 ms
+2025-01-05 17:08:47.083 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1363.7700 ms
+2025-01-05 17:08:47.231 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 43.0485 ms
+2025-01-05 17:08:52.889 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 13.6706 ms
+2025-01-05 17:09:34.378 +02:00 [INF] HTTP DELETE /api/Category/ec13c77a-34bd-49f8-f191-08dd2d93c82b responded 204 in 28641.3040 ms
+2025-01-05 23:18:01.193 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 23:18:01.229 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 23:18:01.403 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 23:18:01.410 +02:00 [INF] Hosting environment: Development
+2025-01-05 23:18:01.414 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 23:18:01.781 +02:00 [INF] HTTP GET / responded 404 in 0.6252 ms
+2025-01-05 23:18:04.439 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2396.6043 ms
+2025-01-05 23:18:04.647 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 61.7635 ms
+2025-01-05 23:20:50.752 +02:00 [INF] HTTP GET /api/Accommodation/Cozy/SearchAccommodation responded 200 in 171.4639 ms
+2025-01-05 23:20:56.314 +02:00 [INF] HTTP GET /api/Accommodation/a/SearchAccommodation responded 200 in 6.4501 ms
+2025-01-05 23:21:32.701 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 10.0487 ms
+2025-01-05 23:21:32.722 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.4719 ms
+2025-01-05 23:21:33.538 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 7.9524 ms
+2025-01-05 23:21:33.554 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.9807 ms
+2025-01-05 23:21:35.336 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.4231 ms
+2025-01-05 23:21:35.351 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.0539 ms
+2025-01-05 23:21:37.080 +02:00 [INF] HTTP GET /api/Category/allwithcategories responded 200 in 93.7436 ms
+2025-01-05 23:21:48.164 +02:00 [INF] HTTP GET /api/Accommodation/9ebd806d-08e7-40d6-9dc8-408c590c119d responded 200 in 41.0876 ms
+2025-01-05 23:21:49.590 +02:00 [INF] HTTP GET /api/Accommodation/9ebd806d-08e7-40d6-9dc8-408c590c119d responded 200 in 7.3899 ms
+2025-01-05 23:21:49.604 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.2806 ms
+2025-01-05 23:21:53.779 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 144.8927 ms
+2025-01-05 23:21:53.816 +02:00 [INF] HTTP GET /api/Accommodation/9ebd806d-08e7-40d6-9dc8-408c590c119d responded 200 in 5.7082 ms
+2025-01-05 23:21:53.830 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.4724 ms
+2025-01-05 23:21:55.014 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 6.4120 ms
+2025-01-05 23:21:55.027 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.7950 ms
+2025-01-05 23:22:01.291 +02:00 [INF] HTTP GET /api/Accommodation/9ebd806d-08e7-40d6-9dc8-408c590c119d responded 200 in 4.9863 ms
+2025-01-05 23:22:02.187 +02:00 [INF] HTTP GET /api/Accommodation/9ebd806d-08e7-40d6-9dc8-408c590c119d responded 200 in 5.3691 ms
+2025-01-05 23:22:02.202 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.7417 ms
+2025-01-05 23:22:26.582 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.6597 ms
+2025-01-05 23:22:46.543 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 44.2959 ms
+2025-01-05 23:22:47.854 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 5.5663 ms
+2025-01-05 23:22:47.872 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.2911 ms
+2025-01-05 23:22:54.605 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.2460 ms
+2025-01-05 23:23:01.362 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 3.0763 ms
+2025-01-05 23:23:13.534 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 5.1579 ms
+2025-01-05 23:23:13.550 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.4192 ms
+2025-01-05 23:23:14.912 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.7677 ms
+2025-01-05 23:23:22.440 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 7.0225 ms
+2025-01-05 23:23:24.474 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.5274 ms
+2025-01-05 23:23:24.489 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.4591 ms
+2025-01-05 23:23:28.387 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 4.4140 ms
+2025-01-05 23:23:37.881 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 4.4200 ms
+2025-01-05 23:23:38.864 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 4.0199 ms
+2025-01-05 23:23:38.877 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.2803 ms
+2025-01-05 23:24:01.329 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 8.5166 ms
+2025-01-05 23:24:02.197 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 4.8080 ms
+2025-01-05 23:24:02.210 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.7889 ms
+2025-01-05 23:24:05.638 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 9.0374 ms
+2025-01-05 23:24:05.673 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 4.5986 ms
+2025-01-05 23:24:05.686 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.8921 ms
+2025-01-05 23:24:23.062 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 7.6180 ms
+2025-01-05 23:24:23.097 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 4.5836 ms
+2025-01-05 23:24:23.110 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.9165 ms
+2025-01-05 23:24:24.421 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.1643 ms
+2025-01-05 23:24:24.434 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.2857 ms
+2025-01-05 23:24:26.756 +02:00 [INF] HTTP GET /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 200 in 4.2896 ms
+2025-01-05 23:24:27.896 +02:00 [INF] HTTP DELETE /api/Accommodation/c18763c7-e3e8-4bea-1257-08dd2dcf1978 responded 204 in 25.4124 ms
+2025-01-05 23:24:27.924 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.5012 ms
+2025-01-05 23:24:27.937 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.6865 ms
+2025-01-05 23:24:30.431 +02:00 [INF] HTTP GET /api/Accommodation/d418e98e-623f-4340-1256-08dd2dcf1978 responded 200 in 5.3956 ms
+2025-01-05 23:24:31.387 +02:00 [INF] HTTP DELETE /api/Accommodation/d418e98e-623f-4340-1256-08dd2dcf1978 responded 204 in 5.6416 ms
+2025-01-05 23:24:31.416 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 3.8379 ms
+2025-01-05 23:24:31.430 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.0965 ms
+2025-01-05 23:24:36.612 +02:00 [INF] HTTP GET /api/Category/418ade5f-d0b7-4545-b9de-beafbefffa66 responded 200 in 9.8117 ms
+2025-01-05 23:24:46.222 +02:00 [INF] HTTP GET /api/Category/437801af-b9a9-43bf-b93f-08dd2d93f13e responded 200 in 3.6234 ms
+2025-01-05 23:24:46.320 +02:00 [INF] HTTP GET /api/Category/00000000-0000-0000-0000-000000000000 responded 204 in 4.7156 ms
+2025-01-05 23:25:27.273 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 32.4441 ms
+2025-01-05 23:25:27.283 +02:00 [INF] HTTP DELETE /api/Category/437801af-b9a9-43bf-b93f-08dd2d93f13e responded 204 in 55.7572 ms
+2025-01-05 23:25:27.358 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 61.7570 ms
+2025-01-05 23:25:27.593 +02:00 [ERR] HTTP DELETE /api/Category/437801af-b9a9-43bf-b93f-08dd2d93f13e responded 500 in 377.5916 ms
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Restino.Persistence.Repositories.BaseRepositrory`1.DeleteAsync(T entity) in C:\Users\Smaga\source\repos\Restino1\Restino.Persistence\Repositories\BaseRepositrory.cs:line 39
+   at Restino.Application.Features.Category.Commands.DeleteCategoryCommand.DeleteCategoryCommandHandler.Handle(DeleteCategoryCommand request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Category\Commands\DeleteCategoryCommand\DeleteCategoryCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.CategoryController.DeleteCategory(Guid id) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\CategoryController.cs:line 68
+   at lambda_method326(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-01-05 23:25:27.593 +02:00 [ERR] HTTP DELETE /api/Category/437801af-b9a9-43bf-b93f-08dd2d93f13e responded 500 in 377.7445 ms
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Restino.Persistence.Repositories.BaseRepositrory`1.DeleteAsync(T entity) in C:\Users\Smaga\source\repos\Restino1\Restino.Persistence\Repositories\BaseRepositrory.cs:line 39
+   at Restino.Application.Features.Category.Commands.DeleteCategoryCommand.DeleteCategoryCommandHandler.Handle(DeleteCategoryCommand request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Category\Commands\DeleteCategoryCommand\DeleteCategoryCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.CategoryController.DeleteCategory(Guid id) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\CategoryController.cs:line 68
+   at lambda_method324(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-01-05 23:25:27.593 +02:00 [ERR] HTTP DELETE /api/Category/437801af-b9a9-43bf-b93f-08dd2d93f13e responded 500 in 378.1256 ms
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Restino.Persistence.Repositories.BaseRepositrory`1.DeleteAsync(T entity) in C:\Users\Smaga\source\repos\Restino1\Restino.Persistence\Repositories\BaseRepositrory.cs:line 39
+   at Restino.Application.Features.Category.Commands.DeleteCategoryCommand.DeleteCategoryCommandHandler.Handle(DeleteCategoryCommand request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Category\Commands\DeleteCategoryCommand\DeleteCategoryCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.CategoryController.DeleteCategory(Guid id) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\CategoryController.cs:line 68
+   at lambda_method323(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-01-05 23:25:29.460 +02:00 [INF] HTTP GET /api/Category/418ade5f-d0b7-4545-b9de-beafbefffa66 responded 200 in 4.5645 ms
+2025-01-05 23:25:30.734 +02:00 [INF] HTTP DELETE /api/Category/418ade5f-d0b7-4545-b9de-beafbefffa66 responded 204 in 4.5430 ms
+2025-01-05 23:25:30.763 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.0913 ms
+2025-01-05 23:25:30.778 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.0426 ms
+2025-01-05 23:25:44.628 +02:00 [INF] HTTP POST /api/Category responded 200 in 19.7807 ms
+2025-01-05 23:25:46.009 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.5354 ms
+2025-01-05 23:25:46.023 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.9290 ms
+2025-01-05 23:26:09.205 +02:00 [INF] HTTP GET /api/Category/b4145c15-d86a-48c5-5d23-08dd2dcf839f responded 200 in 3.7075 ms
+2025-01-05 23:26:10.064 +02:00 [INF] HTTP DELETE /api/Category/b4145c15-d86a-48c5-5d23-08dd2dcf839f responded 204 in 4.0446 ms
+2025-01-05 23:26:10.097 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 7.5617 ms
+2025-01-05 23:26:10.110 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.6876 ms
+2025-01-05 23:26:19.365 +02:00 [INF] HTTP POST /api/Category responded 200 in 5.2479 ms
+2025-01-05 23:26:21.627 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 3.9508 ms
+2025-01-05 23:26:21.640 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.9566 ms
+2025-01-05 23:26:25.958 +02:00 [INF] HTTP GET /api/Category/2bb65f82-18e2-4bf7-5d24-08dd2dcf839f responded 200 in 3.3403 ms
+2025-01-05 23:26:26.938 +02:00 [INF] HTTP DELETE /api/Category/2bb65f82-18e2-4bf7-5d24-08dd2dcf839f responded 204 in 4.3217 ms
+2025-01-05 23:26:26.966 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 3.7802 ms
+2025-01-05 23:26:26.979 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.0075 ms
+2025-01-05 23:26:46.202 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 4.5623 ms
+2025-01-05 23:27:50.366 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 23:27:50.394 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 23:27:50.503 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 23:27:50.504 +02:00 [INF] Hosting environment: Development
+2025-01-05 23:27:50.505 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 23:27:51.376 +02:00 [INF] HTTP GET / responded 404 in 1.5033 ms
+2025-01-05 23:27:53.714 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1588.6932 ms
+2025-01-05 23:27:53.889 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 52.9275 ms
+2025-01-05 23:28:17.166 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 23:28:17.194 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 23:28:17.478 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 23:28:17.479 +02:00 [INF] Hosting environment: Development
+2025-01-05 23:28:17.480 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 23:28:18.219 +02:00 [INF] HTTP GET / responded 404 in 0.7959 ms
+2025-01-05 23:28:20.002 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1314.5507 ms
+2025-01-05 23:28:20.166 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 49.4999 ms
+2025-01-05 23:28:55.396 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 23:28:55.432 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 23:28:55.542 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 23:28:55.545 +02:00 [INF] Hosting environment: Development
+2025-01-05 23:28:55.547 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 23:28:56.660 +02:00 [INF] HTTP GET / responded 404 in 0.8862 ms
+2025-01-05 23:28:58.431 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1396.4107 ms
+2025-01-05 23:28:58.606 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 53.0625 ms
+2025-01-05 23:29:01.489 +02:00 [INF] HTTP GET /api/Accommodation/f0aefde0-bc3d-4cfc-b477-00b3ddec847c responded 200 in 159.7505 ms
+2025-01-05 23:29:05.878 +02:00 [INF] HTTP GET /api/Accommodation/Cozy/SearchAccommodation responded 200 in 47.4758 ms
+2025-01-05 23:29:09.787 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.2075 ms
+2025-01-05 23:29:14.512 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 9.9722 ms
+2025-01-05 23:29:14.530 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.4311 ms
+2025-01-05 23:29:16.215 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 8.0228 ms
+2025-01-05 23:30:37.187 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 39.9004 ms
+2025-01-05 23:30:37.204 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.2693 ms
+2025-01-05 23:32:37.683 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 7.0974 ms
+2025-01-05 23:34:41.016 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 23:34:41.041 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 23:34:41.178 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 23:34:41.180 +02:00 [INF] Hosting environment: Development
+2025-01-05 23:34:41.181 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 23:34:42.229 +02:00 [INF] HTTP GET / responded 404 in 1.2450 ms
+2025-01-05 23:34:44.166 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1474.2535 ms
+2025-01-05 23:34:44.354 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 67.6123 ms
+2025-01-05 23:34:48.258 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 144.9627 ms
+2025-01-05 23:34:49.382 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 8.6408 ms
+2025-01-05 23:34:49.400 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.1191 ms
+2025-01-05 23:35:15.713 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 23:35:15.745 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 23:35:15.848 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 23:35:15.850 +02:00 [INF] Hosting environment: Development
+2025-01-05 23:35:15.851 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 23:35:16.470 +02:00 [INF] HTTP GET / responded 404 in 0.8272 ms
+2025-01-05 23:35:18.292 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1182.9297 ms
+2025-01-05 23:35:18.450 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.4472 ms
+2025-01-05 23:35:21.052 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 139.3959 ms
+2025-01-05 23:35:21.897 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 11.7354 ms
+2025-01-05 23:35:21.917 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.9740 ms
+2025-01-05 23:38:18.333 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-05 23:38:18.356 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-05 23:38:18.494 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 23:38:18.495 +02:00 [INF] Hosting environment: Development
+2025-01-05 23:38:18.496 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-05 23:38:19.105 +02:00 [INF] HTTP GET / responded 404 in 1.1679 ms
+2025-01-05 23:38:21.550 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1432.1365 ms
+2025-01-05 23:38:21.718 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 51.6362 ms
+2025-01-05 23:38:28.886 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 15.5847 ms

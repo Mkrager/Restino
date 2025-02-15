@@ -1,0 +1,170 @@
+2025-01-06 21:46:14.931 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-06 21:46:14.983 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-06 21:46:15.103 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-06 21:46:15.107 +02:00 [INF] Hosting environment: Development
+2025-01-06 21:46:15.107 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-06 21:46:19.134 +02:00 [INF] HTTP GET / responded 404 in 1.2744 ms
+2025-01-06 21:46:23.420 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 3660.4818 ms
+2025-01-06 21:46:23.765 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 77.8147 ms
+2025-01-06 21:46:31.354 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 16.0405 ms
+2025-01-06 21:46:42.875 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 339.2965 ms
+2025-01-06 21:46:42.898 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.6208 ms
+2025-01-06 21:46:49.687 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 13.3100 ms
+2025-01-06 21:46:49.703 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.5325 ms
+2025-01-06 21:46:52.558 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 4.6403 ms
+2025-01-06 21:46:52.580 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.7952 ms
+2025-01-06 21:46:56.728 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 7.3758 ms
+2025-01-06 21:46:56.745 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.7564 ms
+2025-01-06 21:47:43.886 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-06 21:47:43.917 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-06 21:47:44.046 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-06 21:47:44.049 +02:00 [INF] Hosting environment: Development
+2025-01-06 21:47:44.052 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-06 21:47:45.603 +02:00 [INF] HTTP GET / responded 404 in 1.1129 ms
+2025-01-06 21:47:48.800 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2425.0133 ms
+2025-01-06 21:47:49.107 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 93.1172 ms
+2025-01-06 21:47:52.033 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 16.7769 ms
+2025-01-06 21:53:59.572 +02:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [CategoriesId] uniqueidentifier NOT NULL,
+    [CategoryName] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [ImgUrl] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([CategoriesId])
+);
+2025-01-06 21:54:50.982 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-06 21:54:51.013 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-06 21:54:51.264 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-06 21:54:51.265 +02:00 [INF] Hosting environment: Development
+2025-01-06 21:54:51.266 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-06 21:54:52.699 +02:00 [INF] HTTP GET / responded 404 in 0.8573 ms
+2025-01-06 21:54:55.465 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2227.8523 ms
+2025-01-06 21:54:55.736 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 60.0062 ms
+2025-01-06 21:55:04.522 +02:00 [INF] HTTP GET /api/Category/c119661c-1d5a-42c1-8819-6b0885af4d4a responded 200 in 137.8640 ms
+2025-01-06 21:55:09.332 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 6.1105 ms
+2025-01-06 21:55:20.723 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 206.1461 ms
+2025-01-06 21:55:20.744 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.5031 ms
+2025-01-06 21:55:23.567 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 10.2957 ms
+2025-01-06 21:55:23.583 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.3301 ms
+2025-01-06 21:55:26.979 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 3.4114 ms
+2025-01-06 21:55:27.000 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.3744 ms
+2025-01-06 21:55:29.497 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 11.3034 ms
+2025-01-06 21:55:29.518 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.8208 ms
+2025-01-06 21:55:31.337 +02:00 [INF] HTTP GET /api/Accommodation/2eb9b07e-85c7-4e31-4022-08dd2e8c0d15 responded 200 in 27.4015 ms
+2025-01-06 21:55:32.410 +02:00 [INF] HTTP DELETE /api/Accommodation/2eb9b07e-85c7-4e31-4022-08dd2e8c0d15 responded 204 in 31.2328 ms
+2025-01-06 21:55:32.449 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 7.2309 ms
+2025-01-06 21:55:32.464 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.6909 ms
+2025-01-06 21:55:46.482 +02:00 [INF] HTTP GET /api/Category/6f80d6e0-54b3-495d-847b-16a092c8b626 responded 200 in 3.9829 ms
+2025-01-06 21:55:51.576 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 5.5557 ms
+2025-01-06 21:55:51.592 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.9236 ms
+2025-01-06 21:55:55.155 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.8638 ms
+2025-01-06 21:56:00.224 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 5.0248 ms
+2025-01-06 21:56:00.240 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.1025 ms
+2025-01-06 21:56:01.802 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 5.8669 ms
+2025-01-06 21:56:03.083 +02:00 [INF] HTTP GET /api/Accommodation/1a491f3d-94ac-4df8-a244-0ef6c4a5c5b2 responded 200 in 7.0371 ms
+2025-01-06 21:56:03.100 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.4888 ms
+2025-01-06 21:56:07.063 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.9071 ms
+2025-01-06 21:56:16.010 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 7.2355 ms
+2025-01-06 21:56:16.028 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.6357 ms
+2025-01-06 21:56:19.361 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 5.9573 ms
+2025-01-06 21:56:19.377 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.6661 ms
+2025-01-06 21:56:20.339 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 6.5405 ms
+2025-01-06 21:56:20.356 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.9146 ms
+2025-01-06 21:56:22.490 +02:00 [INF] HTTP GET /api/Accommodation/1cd97e00-e72f-43a4-4024-08dd2e8c0d15 responded 200 in 6.1389 ms
+2025-01-06 21:56:23.586 +02:00 [INF] HTTP GET /api/Accommodation/1cd97e00-e72f-43a4-4024-08dd2e8c0d15 responded 200 in 7.6475 ms
+2025-01-06 21:56:23.602 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.4404 ms
+2025-01-06 21:56:26.447 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 21.3675 ms
+2025-01-06 21:56:26.489 +02:00 [INF] HTTP GET /api/Accommodation/1cd97e00-e72f-43a4-4024-08dd2e8c0d15 responded 200 in 6.7741 ms
+2025-01-06 21:56:26.506 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.0754 ms
+2025-01-06 21:56:29.702 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 6.5759 ms
+2025-01-06 21:56:29.739 +02:00 [INF] HTTP GET /api/Accommodation/1cd97e00-e72f-43a4-4024-08dd2e8c0d15 responded 200 in 6.0991 ms
+2025-01-06 21:56:29.755 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.2900 ms
+2025-01-06 21:56:30.793 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.6249 ms
+2025-01-06 21:56:30.808 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.2030 ms
+2025-01-06 21:56:32.652 +02:00 [INF] HTTP GET /api/Accommodation/37b5eb78-eab3-474d-4023-08dd2e8c0d15 responded 200 in 5.6122 ms
+2025-01-06 21:56:33.700 +02:00 [INF] HTTP DELETE /api/Accommodation/37b5eb78-eab3-474d-4023-08dd2e8c0d15 responded 204 in 6.5766 ms
+2025-01-06 21:56:33.733 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 5.5833 ms
+2025-01-06 21:56:33.749 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.3891 ms
+2025-01-06 21:56:36.108 +02:00 [INF] HTTP GET /api/Accommodation/1cd97e00-e72f-43a4-4024-08dd2e8c0d15 responded 200 in 4.1016 ms
+2025-01-06 21:56:37.149 +02:00 [INF] HTTP DELETE /api/Accommodation/1cd97e00-e72f-43a4-4024-08dd2e8c0d15 responded 204 in 5.0785 ms
+2025-01-06 21:56:37.182 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.7240 ms
+2025-01-06 21:56:37.197 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.8167 ms
+2025-01-06 22:01:40.492 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-06 22:01:40.621 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-06 22:01:40.742 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-06 22:01:40.744 +02:00 [INF] Hosting environment: Development
+2025-01-06 22:01:40.746 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-06 22:01:41.986 +02:00 [INF] HTTP GET / responded 404 in 1.4256 ms
+2025-01-06 22:01:44.652 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1782.4840 ms
+2025-01-06 22:01:44.829 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 52.0777 ms
+2025-01-06 22:01:46.330 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 19.2430 ms
+2025-01-06 22:01:46.357 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 8.1631 ms
+2025-01-06 22:03:32.889 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-06 22:03:32.914 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-06 22:03:33.008 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-06 22:03:33.009 +02:00 [INF] Hosting environment: Development
+2025-01-06 22:03:33.010 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-06 22:03:33.986 +02:00 [INF] HTTP GET / responded 404 in 2.5172 ms
+2025-01-06 22:03:36.195 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1447.1917 ms
+2025-01-06 22:03:36.373 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 54.9815 ms
+2025-01-06 22:03:38.007 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 14.6479 ms
+2025-01-06 22:03:38.027 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 6.6934 ms
+2025-01-06 22:04:31.737 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-06 22:04:31.765 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-06 22:04:31.950 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-06 22:04:31.951 +02:00 [INF] Hosting environment: Development
+2025-01-06 22:04:31.952 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-06 22:04:33.185 +02:00 [INF] HTTP GET / responded 404 in 1.2021 ms
+2025-01-06 22:04:35.755 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1696.2280 ms
+2025-01-06 22:04:35.939 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 51.6155 ms
+2025-01-06 22:04:37.238 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 24.0794 ms
+2025-01-06 22:04:40.893 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 7.8464 ms
+2025-01-06 22:06:05.329 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-06 22:06:05.354 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-06 22:06:05.450 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-06 22:06:05.451 +02:00 [INF] Hosting environment: Development
+2025-01-06 22:06:05.452 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-06 22:06:08.410 +02:00 [INF] HTTP GET / responded 404 in 0.7516 ms
+2025-01-06 22:06:10.998 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1746.5717 ms
+2025-01-06 22:06:11.174 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 53.0174 ms
+2025-01-06 22:06:13.492 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 15.1057 ms
+2025-01-06 22:06:13.513 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 6.0315 ms
+2025-01-06 22:06:22.867 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 278.7783 ms
+2025-01-06 22:06:22.887 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.5401 ms
+2025-01-06 22:06:22.909 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.2612 ms
+2025-01-06 22:06:24.100 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 10.1148 ms
+2025-01-06 22:06:24.116 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.2736 ms
+2025-01-06 22:06:24.132 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.7078 ms
+2025-01-06 22:06:27.261 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 8.1736 ms
+2025-01-06 22:06:27.278 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.6194 ms
+2025-01-06 22:06:29.366 +02:00 [INF] HTTP GET /api/Accommodation/cf2aa012-491e-4d95-02e9-08dd2e8d97c1 responded 200 in 46.0280 ms
+2025-01-06 22:06:30.692 +02:00 [INF] HTTP GET /api/Accommodation/cf2aa012-491e-4d95-02e9-08dd2e8d97c1 responded 200 in 7.8935 ms
+2025-01-06 22:06:30.709 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.7821 ms
+2025-01-06 22:06:30.723 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.1791 ms
+2025-01-06 22:06:31.971 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 19.4729 ms
+2025-01-06 22:06:32.015 +02:00 [INF] HTTP GET /api/Accommodation/cf2aa012-491e-4d95-02e9-08dd2e8d97c1 responded 200 in 6.8828 ms
+2025-01-06 22:06:32.032 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.8984 ms
+2025-01-06 22:06:32.048 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.5490 ms
+2025-01-06 22:06:35.497 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 5.8307 ms
+2025-01-06 22:06:35.513 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.0777 ms
+2025-01-06 22:06:42.335 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.6458 ms
+2025-01-06 22:06:42.350 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.4472 ms
+2025-01-06 22:06:49.121 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 12.5477 ms
+2025-01-06 22:06:49.136 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.0040 ms
+2025-01-06 22:06:49.151 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.9641 ms
+2025-01-06 22:06:50.777 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 6.3128 ms
+2025-01-06 22:06:50.797 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 3.7101 ms
+2025-01-06 22:06:53.366 +02:00 [INF] HTTP GET /api/Accommodation/4bf70737-d451-4cbc-02ea-08dd2e8d97c1 responded 200 in 6.2068 ms
+2025-01-06 22:06:54.915 +02:00 [INF] HTTP GET /api/Accommodation/4bf70737-d451-4cbc-02ea-08dd2e8d97c1 responded 200 in 5.2712 ms
+2025-01-06 22:06:54.932 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.3287 ms
+2025-01-06 22:06:54.949 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.0189 ms
+2025-01-06 22:06:57.979 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 7.3143 ms
+2025-01-06 22:06:58.012 +02:00 [INF] HTTP GET /api/Accommodation/4bf70737-d451-4cbc-02ea-08dd2e8d97c1 responded 200 in 5.0223 ms
+2025-01-06 22:06:58.027 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.9877 ms
+2025-01-06 22:06:58.040 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.7540 ms
+2025-01-06 22:07:04.154 +02:00 [INF] HTTP PUT /api/Accommodation responded 200 in 4.8985 ms
+2025-01-06 22:07:04.188 +02:00 [INF] HTTP GET /api/Accommodation/4bf70737-d451-4cbc-02ea-08dd2e8d97c1 responded 200 in 4.3155 ms
+2025-01-06 22:07:04.204 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.7423 ms
+2025-01-06 22:07:04.219 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.9124 ms
+2025-01-06 22:07:07.589 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 4.8690 ms
+2025-01-06 22:07:07.604 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 2.9811 ms

@@ -1,0 +1,29 @@
+﻿@model List<Restino.App.ViewModels.CategoryAccommodationViewModel>
+
+<div class="accommodation" style="margin-top: 0px;">
+    <div class="container">
+        <h2 class="h2">Categories overview</h2>
+        @foreach (var CategoryDetail in Model)
+        {
+            <h2 class="accommodation-title">@CategoryDetail.CategoryName</h2>
+
+            <div class="accommodation-flex">
+                @foreach (var AccommodationDetails in CategoryDetail.Accommodations)
+                {
+                    <div class="accommodation-item">
+                        <div class="accommodation-content">
+                            <img src="@AccommodationDetails.ImgUrl" alt="" class="accommodation-img">
+                            <p class="hot-title">@AccommodationDetails.Name</p>
+                            <p class="accommodation-description">@AccommodationDetails.ShortDescription</p>
+                            <p class="accommodation-description">Capacity: @AccommodationDetails.Capacity</p>
+                            <p class="accommodation-description">Address: @AccommodationDetails.Address</p>
+                            <p class="accommodation-price">Price: @AccommodationDetails.Price per day</p>
+                            <a asp-controller="Accommodation" asp-action="Details" asp-route-AccommodationId="@AccommodationDetails.AccommodationsId" class="accommodation-btn">Details</a>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+    </div>
+</div>

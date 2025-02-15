@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Restino.Api.props" />
+</Project>

@@ -1,0 +1,1367 @@
+2024-12-31 14:40:12.264 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:40:12.285 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:40:12.358 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:40:12.359 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:40:12.360 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:40:12.856 +02:00 [INF] HTTP GET / responded 404 in 0.2893 ms
+2024-12-31 14:40:14.710 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2164.3557 ms
+2024-12-31 14:40:14.873 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.8705 ms
+2024-12-31 14:40:26.106 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 125.2370 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:40:43.105 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:40:43.144 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:40:43.261 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:40:43.263 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:40:43.265 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:40:43.702 +02:00 [INF] HTTP GET / responded 404 in 0.6673 ms
+2024-12-31 14:40:45.851 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1132.7578 ms
+2024-12-31 14:40:46.018 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 49.8758 ms
+2024-12-31 14:40:47.713 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 131.5723 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:43:01.984 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:43:02.008 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:43:02.103 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:43:02.104 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:43:02.105 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:43:02.787 +02:00 [INF] HTTP GET / responded 404 in 0.9608 ms
+2024-12-31 14:43:04.656 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1198.9508 ms
+2024-12-31 14:43:04.816 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.1965 ms
+2024-12-31 14:43:07.774 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 114.7257 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:43:39.920 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:43:39.941 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:43:40.168 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:43:40.169 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:43:40.170 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:43:40.760 +02:00 [INF] HTTP GET / responded 404 in 0.9405 ms
+2024-12-31 14:43:42.365 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1103.2310 ms
+2024-12-31 14:43:42.513 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.4264 ms
+2024-12-31 14:43:44.207 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 112.6537 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:45:03.463 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:45:03.484 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:45:03.701 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:45:03.703 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:45:03.703 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:45:04.397 +02:00 [INF] HTTP GET / responded 404 in 0.7862 ms
+2024-12-31 14:45:05.948 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1094.3063 ms
+2024-12-31 14:45:06.097 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.4954 ms
+2024-12-31 14:45:09.298 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 117.7025 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:46:22.596 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:46:22.638 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:46:22.746 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:46:22.748 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:46:22.749 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:46:23.445 +02:00 [INF] HTTP GET / responded 404 in 0.5113 ms
+2024-12-31 14:46:25.159 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1137.0711 ms
+2024-12-31 14:46:25.308 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.8534 ms
+2024-12-31 14:46:27.575 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 115.2516 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:47:02.033 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:47:02.054 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:47:02.137 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:47:02.139 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:47:02.139 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:47:02.544 +02:00 [INF] HTTP GET / responded 404 in 0.5545 ms
+2024-12-31 14:47:04.316 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1126.8315 ms
+2024-12-31 14:47:04.480 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 51.5793 ms
+2024-12-31 14:47:06.965 +02:00 [ERR] HTTP GET /api/Accommodation/qa/SearchAccommodation responded 500 in 118.0302 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:48:49.859 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:48:49.879 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:48:49.989 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:48:49.990 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:48:49.991 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:48:50.629 +02:00 [INF] HTTP GET / responded 404 in 0.5552 ms
+2024-12-31 14:48:52.472 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1204.4407 ms
+2024-12-31 14:48:52.628 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.8992 ms
+2024-12-31 14:48:54.176 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 115.7609 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:49:03.102 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:49:03.140 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:49:03.238 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:49:03.239 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:49:03.240 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:49:04.039 +02:00 [INF] HTTP GET / responded 404 in 0.5750 ms
+2024-12-31 14:49:05.598 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1092.0059 ms
+2024-12-31 14:49:05.744 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 44.8897 ms
+2024-12-31 14:49:08.569 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 12.9005 ms
+2024-12-31 14:49:17.923 +02:00 [INF] HTTP POST /api/Accommodation responded 200 in 256.3969 ms
+2024-12-31 14:49:17.956 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 6.9711 ms
+2024-12-31 14:49:17.974 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.3851 ms
+2024-12-31 14:49:22.187 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.5990 ms
+2024-12-31 14:49:33.787 +02:00 [ERR] HTTP POST /api/Accommodation responded 500 in 99.1884 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Commands.CreateAccommodation.CreateAccommodationCommandHandler.Handle(CreateAccommodationCommand request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Commands\CreateAccommodation\CreateAccommodationCommandHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.Create(CreateAccommodationCommand createAccommodationCommand) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 53
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:49:45.654 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 7.2077 ms
+2024-12-31 14:49:45.670 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 4.3056 ms
+2024-12-31 14:54:40.926 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:54:40.949 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:54:41.049 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:54:41.050 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:54:41.051 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:54:41.850 +02:00 [INF] HTTP GET / responded 404 in 0.5844 ms
+2024-12-31 14:54:43.536 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1208.0250 ms
+2024-12-31 14:54:43.692 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.1875 ms
+2024-12-31 14:54:46.221 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 13.4747 ms
+2024-12-31 14:54:47.992 +02:00 [INF] HTTP POST /api/Accommodation responded 400 in 46.6564 ms
+2024-12-31 14:54:52.326 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 6.9844 ms
+2024-12-31 14:54:52.346 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.8004 ms
+2024-12-31 14:55:30.407 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:55:30.437 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:55:30.704 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:55:30.706 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:55:30.707 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:55:31.254 +02:00 [INF] HTTP GET / responded 404 in 0.7118 ms
+2024-12-31 14:55:32.860 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1091.9023 ms
+2024-12-31 14:55:33.010 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.7972 ms
+2024-12-31 14:55:34.871 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 12.8344 ms
+2024-12-31 14:55:36.815 +02:00 [INF] HTTP POST /api/Accommodation responded 400 in 55.1144 ms
+2024-12-31 14:56:27.439 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:56:27.471 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:56:27.687 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:56:27.708 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:56:27.708 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:56:27.918 +02:00 [INF] HTTP GET / responded 404 in 0.8287 ms
+2024-12-31 14:56:30.166 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1141.7261 ms
+2024-12-31 14:56:30.327 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.9585 ms
+2024-12-31 14:57:22.593 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:57:22.612 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:57:22.771 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:57:22.773 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:57:22.774 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:57:23.627 +02:00 [INF] HTTP GET / responded 404 in 1.1952 ms
+2024-12-31 14:57:25.042 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1196.1734 ms
+2024-12-31 14:57:25.197 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 44.8215 ms
+2024-12-31 14:57:26.586 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 119.9763 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:57:41.955 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:57:41.980 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:57:42.089 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:57:42.092 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:57:42.093 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:57:43.036 +02:00 [INF] HTTP GET / responded 404 in 0.6273 ms
+2024-12-31 14:57:44.788 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1210.4170 ms
+2024-12-31 14:57:44.940 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.4731 ms
+2024-12-31 14:57:58.970 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 113.8225 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 14:59:14.420 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 14:59:14.440 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 14:59:14.547 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 14:59:14.548 +02:00 [INF] Hosting environment: Development
+2024-12-31 14:59:14.549 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 14:59:15.421 +02:00 [INF] HTTP GET / responded 404 in 0.9432 ms
+2024-12-31 14:59:17.054 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1422.8467 ms
+2024-12-31 14:59:17.209 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.8742 ms
+2024-12-31 14:59:20.085 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0579 ms
+2024-12-31 15:01:42.492 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:01:42.519 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:01:42.626 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:01:42.628 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:01:42.629 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:01:43.291 +02:00 [INF] HTTP GET / responded 404 in 1.0261 ms
+2024-12-31 15:01:45.542 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1202.7445 ms
+2024-12-31 15:01:45.706 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.8124 ms
+2024-12-31 15:02:13.882 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:02:13.901 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:02:14.000 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:02:14.001 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:02:14.002 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:02:15.005 +02:00 [INF] HTTP GET / responded 404 in 0.8531 ms
+2024-12-31 15:02:16.457 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1241.8143 ms
+2024-12-31 15:02:16.609 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.1916 ms
+2024-12-31 15:02:52.864 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:02:52.893 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:02:52.992 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:02:52.994 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:02:52.994 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:02:53.738 +02:00 [INF] HTTP GET / responded 404 in 0.5268 ms
+2024-12-31 15:02:55.748 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1367.0441 ms
+2024-12-31 15:02:55.921 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 62.3455 ms
+2024-12-31 15:03:00.956 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0251 ms
+2024-12-31 15:03:33.806 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:03:33.833 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:03:33.946 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:03:33.947 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:03:33.948 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:03:34.579 +02:00 [INF] HTTP GET / responded 404 in 0.5432 ms
+2024-12-31 15:03:36.694 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1126.6139 ms
+2024-12-31 15:03:36.872 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.5171 ms
+2024-12-31 15:03:38.466 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0354 ms
+2024-12-31 15:04:00.965 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:04:00.993 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:04:01.223 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:04:01.225 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:04:01.226 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:04:01.812 +02:00 [INF] HTTP GET / responded 404 in 0.5699 ms
+2024-12-31 15:04:03.386 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1101.2423 ms
+2024-12-31 15:04:03.544 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.2046 ms
+2024-12-31 15:04:31.951 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:04:31.975 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:04:32.185 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:04:32.186 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:04:32.187 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:04:32.766 +02:00 [INF] HTTP GET / responded 404 in 0.6240 ms
+2024-12-31 15:04:34.459 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1148.3015 ms
+2024-12-31 15:04:34.634 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 56.5683 ms
+2024-12-31 15:04:50.748 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:04:50.771 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:04:50.883 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:04:50.885 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:04:50.888 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:04:51.542 +02:00 [INF] HTTP GET / responded 404 in 0.6804 ms
+2024-12-31 15:04:53.277 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1122.1224 ms
+2024-12-31 15:04:53.429 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.4903 ms
+2024-12-31 15:04:59.701 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0477 ms
+2024-12-31 15:07:26.228 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:07:26.260 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:07:26.352 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:07:26.353 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:07:26.354 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:07:27.282 +02:00 [INF] HTTP GET / responded 404 in 0.8224 ms
+2024-12-31 15:07:29.028 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1362.9676 ms
+2024-12-31 15:07:29.192 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.9242 ms
+2024-12-31 15:07:32.240 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0321 ms
+2024-12-31 15:08:26.147 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:08:26.168 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:08:26.356 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:08:26.357 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:08:26.358 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:08:26.936 +02:00 [INF] HTTP GET / responded 404 in 0.7229 ms
+2024-12-31 15:08:28.459 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1286.3703 ms
+2024-12-31 15:08:28.633 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.3842 ms
+2024-12-31 15:08:35.222 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0416 ms
+2024-12-31 15:09:50.372 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:09:50.394 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:09:50.577 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:09:50.578 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:09:50.578 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:09:51.050 +02:00 [INF] HTTP GET / responded 404 in 0.7865 ms
+2024-12-31 15:09:52.966 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1265.9835 ms
+2024-12-31 15:09:53.142 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 66.4283 ms
+2024-12-31 15:10:03.676 +02:00 [ERR] HTTP GET /api/Accommodation/ /SearchAccommodation responded 500 in 109.5130 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:10:32.203 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:10:32.231 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:10:32.332 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:10:32.333 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:10:32.334 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:10:32.890 +02:00 [INF] HTTP GET / responded 404 in 0.5816 ms
+2024-12-31 15:10:34.936 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1186.3388 ms
+2024-12-31 15:10:35.098 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.8143 ms
+2024-12-31 15:10:55.635 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:10:55.659 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:10:55.740 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:10:55.742 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:10:55.742 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:10:56.287 +02:00 [INF] HTTP GET / responded 404 in 0.4730 ms
+2024-12-31 15:10:58.320 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1191.0089 ms
+2024-12-31 15:10:58.475 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.2424 ms
+2024-12-31 15:11:00.177 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0266 ms
+2024-12-31 15:11:29.992 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:11:30.016 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:11:30.122 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:11:30.123 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:11:30.124 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:11:30.679 +02:00 [INF] HTTP GET / responded 404 in 0.4476 ms
+2024-12-31 15:11:32.736 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1177.5126 ms
+2024-12-31 15:11:32.888 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.0729 ms
+2024-12-31 15:11:43.267 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0489 ms
+2024-12-31 15:12:31.344 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:12:31.375 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:12:31.468 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:12:31.470 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:12:31.471 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:12:32.297 +02:00 [INF] HTTP GET / responded 404 in 0.7691 ms
+2024-12-31 15:12:34.198 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1397.4307 ms
+2024-12-31 15:12:34.367 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 57.4123 ms
+2024-12-31 15:12:35.672 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0295 ms
+2024-12-31 15:47:21.843 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:47:21.867 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:47:21.979 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:47:21.982 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:47:21.983 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:47:22.499 +02:00 [INF] HTTP GET / responded 404 in 1.2289 ms
+2024-12-31 15:47:24.897 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1909.9049 ms
+2024-12-31 15:47:25.073 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 52.6264 ms
+2024-12-31 15:47:35.628 +02:00 [ERR] HTTP GET /api/Accommodation/ /SearchAccommodation responded 500 in 1829.9388 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:47:49.595 +02:00 [ERR] HTTP GET /api/Accommodation/ a/SearchAccommodation responded 500 in 1477.8257 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:48:22.636 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:48:22.659 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:48:22.746 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:48:22.747 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:48:22.748 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:48:23.580 +02:00 [INF] HTTP GET / responded 404 in 0.6292 ms
+2024-12-31 15:48:29.431 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:48:29.454 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:48:29.545 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:48:29.546 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:48:29.547 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:48:30.102 +02:00 [INF] HTTP GET / responded 404 in 0.5222 ms
+2024-12-31 15:48:31.792 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1163.8253 ms
+2024-12-31 15:48:31.960 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 53.9178 ms
+2024-12-31 15:51:55.440 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:51:55.458 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:51:55.550 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:51:55.552 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:51:55.552 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:51:56.064 +02:00 [INF] HTTP GET / responded 404 in 1.2047 ms
+2024-12-31 15:51:59.167 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2080.9033 ms
+2024-12-31 15:51:59.347 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 51.9407 ms
+2024-12-31 15:52:21.444 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 20260.3740 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:53:21.172 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:53:21.199 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:53:21.298 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:53:21.300 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:53:21.300 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:53:21.707 +02:00 [INF] HTTP GET / responded 404 in 0.6963 ms
+2024-12-31 15:53:23.659 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1369.9577 ms
+2024-12-31 15:53:23.816 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 50.8516 ms
+2024-12-31 15:53:31.574 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 115.8917 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:54:04.507 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:54:04.532 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:54:04.640 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:54:04.642 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:54:04.643 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:54:04.972 +02:00 [INF] HTTP GET / responded 404 in 0.4923 ms
+2024-12-31 15:54:07.207 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1189.2832 ms
+2024-12-31 15:54:07.368 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.9740 ms
+2024-12-31 15:54:08.966 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 125.0447 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:55:52.413 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:55:52.433 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:55:52.620 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:55:52.621 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:55:52.622 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:55:53.311 +02:00 [INF] HTTP GET / responded 404 in 0.4609 ms
+2024-12-31 15:55:54.960 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1124.6330 ms
+2024-12-31 15:55:55.119 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 49.8068 ms
+2024-12-31 15:55:56.873 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 120.3220 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:56:56.586 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:56:56.608 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:56:56.692 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:56:56.694 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:56:56.695 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:56:57.470 +02:00 [INF] HTTP GET / responded 404 in 0.4952 ms
+2024-12-31 15:56:59.263 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1263.2572 ms
+2024-12-31 15:56:59.419 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.7064 ms
+2024-12-31 15:57:01.052 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 130.4306 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 15:57:26.646 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 15:57:26.670 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 15:57:26.851 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 15:57:26.852 +02:00 [INF] Hosting environment: Development
+2024-12-31 15:57:26.853 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 15:57:27.371 +02:00 [INF] HTTP GET / responded 404 in 0.4728 ms
+2024-12-31 15:57:29.191 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1240.5937 ms
+2024-12-31 15:57:29.351 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.7650 ms
+2024-12-31 15:57:31.324 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 123.2639 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:00:41.542 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:00:41.585 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:00:41.785 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:00:41.826 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:00:41.835 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:00:42.426 +02:00 [INF] HTTP GET / responded 404 in 0.9198 ms
+2024-12-31 16:00:44.967 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1406.1918 ms
+2024-12-31 16:00:45.159 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 54.9182 ms
+2024-12-31 16:00:47.566 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0863 ms
+2024-12-31 16:00:51.360 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0106 ms
+2024-12-31 16:01:17.273 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:01:17.300 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:01:17.391 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:01:17.393 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:01:17.393 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:01:17.889 +02:00 [INF] HTTP GET / responded 404 in 0.6169 ms
+2024-12-31 16:01:19.577 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1148.3872 ms
+2024-12-31 16:01:19.732 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.6215 ms
+2024-12-31 16:01:21.955 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0368 ms
+2024-12-31 16:01:53.385 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:01:53.408 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:01:53.497 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:01:53.499 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:01:53.500 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:01:54.026 +02:00 [INF] HTTP GET / responded 404 in 0.5079 ms
+2024-12-31 16:01:55.732 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1203.3346 ms
+2024-12-31 16:01:55.904 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 52.5949 ms
+2024-12-31 16:01:57.586 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0777 ms
+2024-12-31 16:02:11.514 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:02:11.536 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:02:11.620 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:02:11.622 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:02:11.623 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:02:36.754 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:02:36.777 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:02:36.862 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:02:36.864 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:02:36.864 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:02:37.583 +02:00 [INF] HTTP GET / responded 404 in 0.5200 ms
+2024-12-31 16:02:39.325 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1191.0040 ms
+2024-12-31 16:02:39.486 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 51.5544 ms
+2024-12-31 16:02:40.817 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0275 ms
+2024-12-31 16:02:53.769 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:02:53.789 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:02:53.877 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:02:53.878 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:02:53.879 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:02:54.405 +02:00 [INF] HTTP GET / responded 404 in 1.0534 ms
+2024-12-31 16:02:56.295 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1186.3920 ms
+2024-12-31 16:02:56.452 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.7084 ms
+2024-12-31 16:02:57.902 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0432 ms
+2024-12-31 16:08:46.325 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:08:46.347 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:08:46.556 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:08:46.557 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:08:46.558 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:08:46.884 +02:00 [INF] HTTP GET / responded 404 in 0.5124 ms
+2024-12-31 16:08:49.300 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1778.3701 ms
+2024-12-31 16:08:49.463 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.7668 ms
+2024-12-31 16:08:52.300 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0314 ms
+2024-12-31 16:09:27.476 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:09:27.499 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:09:27.587 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:09:27.589 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:09:27.590 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:09:28.105 +02:00 [INF] HTTP GET / responded 404 in 0.6465 ms
+2024-12-31 16:09:29.798 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1189.6512 ms
+2024-12-31 16:09:29.957 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.9030 ms
+2024-12-31 16:09:31.724 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0557 ms
+2024-12-31 16:11:06.278 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:11:06.303 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:11:06.378 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:11:06.379 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:11:06.380 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:11:06.850 +02:00 [INF] HTTP GET / responded 404 in 0.6659 ms
+2024-12-31 16:11:08.702 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1197.3347 ms
+2024-12-31 16:11:08.865 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 49.3901 ms
+2024-12-31 16:11:51.305 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0620 ms
+2024-12-31 16:11:53.992 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0087 ms
+2024-12-31 16:12:57.819 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:12:57.840 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:12:57.920 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:12:57.921 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:12:57.921 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:12:58.612 +02:00 [INF] HTTP GET / responded 404 in 0.5792 ms
+2024-12-31 16:13:00.191 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1394.8638 ms
+2024-12-31 16:13:00.364 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.2671 ms
+2024-12-31 16:13:29.291 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0344 ms
+2024-12-31 16:14:51.610 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0147 ms
+2024-12-31 16:14:51.636 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 28.7988 ms
+2024-12-31 16:14:58.518 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 6.7659 ms
+2024-12-31 16:15:46.725 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0121 ms
+2024-12-31 16:16:18.114 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:16:18.137 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:16:18.215 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:16:18.216 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:16:18.217 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:16:19.013 +02:00 [INF] HTTP GET / responded 404 in 0.5941 ms
+2024-12-31 16:16:20.731 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1181.4639 ms
+2024-12-31 16:16:20.891 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.8081 ms
+2024-12-31 16:16:38.284 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0321 ms
+2024-12-31 16:17:14.434 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:17:14.456 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:17:14.550 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:17:14.551 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:17:14.553 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:17:15.343 +02:00 [INF] HTTP GET / responded 404 in 0.6782 ms
+2024-12-31 16:17:17.228 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1202.0813 ms
+2024-12-31 16:17:17.394 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 44.4731 ms
+2024-12-31 16:17:34.702 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0280 ms
+2024-12-31 16:18:26.871 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:18:26.893 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:18:26.993 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:18:26.995 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:18:26.996 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:18:27.567 +02:00 [INF] HTTP GET / responded 404 in 1.0065 ms
+2024-12-31 16:18:29.413 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1227.2997 ms
+2024-12-31 16:18:29.577 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 50.2250 ms
+2024-12-31 16:18:38.089 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0491 ms
+2024-12-31 16:19:34.677 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:19:34.703 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:19:34.900 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:19:34.901 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:19:34.902 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:19:35.570 +02:00 [INF] HTTP GET / responded 404 in 0.7319 ms
+2024-12-31 16:19:37.766 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1329.3524 ms
+2024-12-31 16:19:37.926 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 50.7851 ms
+2024-12-31 16:19:39.473 +02:00 [INF] HTTP GET /apiAccommodation/a/SearchAccommodation responded 404 in 0.0326 ms
+2024-12-31 16:19:44.842 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:19:44.862 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:19:44.961 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:19:44.962 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:19:44.963 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:19:45.554 +02:00 [INF] HTTP GET / responded 404 in 0.4640 ms
+2024-12-31 16:19:47.713 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1189.5272 ms
+2024-12-31 16:19:47.877 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 49.8645 ms
+2024-12-31 16:20:57.157 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:20:57.179 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:20:57.268 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:20:57.270 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:20:57.271 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:20:57.855 +02:00 [INF] HTTP GET / responded 404 in 0.5112 ms
+2024-12-31 16:20:59.932 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1206.6030 ms
+2024-12-31 16:21:00.104 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 52.6543 ms
+2024-12-31 16:21:09.883 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 8017.5278 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:23:20.637 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:23:20.660 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:23:20.745 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:23:20.745 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:23:20.746 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:23:21.403 +02:00 [INF] HTTP GET / responded 404 in 0.5016 ms
+2024-12-31 16:23:22.854 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1194.1042 ms
+2024-12-31 16:23:23.010 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.6018 ms
+2024-12-31 16:23:27.955 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 2729.2324 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:26:55.299 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:26:55.317 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:26:55.424 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:26:55.426 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:26:55.426 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:26:55.851 +02:00 [INF] HTTP GET / responded 404 in 0.8808 ms
+2024-12-31 16:26:58.194 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1206.0564 ms
+2024-12-31 16:26:58.362 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.4276 ms
+2024-12-31 16:27:02.458 +02:00 [ERR] HTTP GET /api/Accommodation/ф/SearchAccommodation responded 500 in 1676.8862 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:28:01.944 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:28:01.966 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:28:02.053 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:28:02.054 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:28:02.055 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:28:02.809 +02:00 [INF] HTTP GET / responded 404 in 0.4729 ms
+2024-12-31 16:28:04.598 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1234.1231 ms
+2024-12-31 16:28:04.754 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.0531 ms
+2024-12-31 16:28:11.406 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 1687.2678 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:29:29.238 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:29:29.256 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:29:29.332 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:29:29.333 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:29:29.334 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:29:30.021 +02:00 [INF] HTTP GET / responded 404 in 0.7279 ms
+2024-12-31 16:29:31.734 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1147.9370 ms
+2024-12-31 16:29:31.888 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.4887 ms
+2024-12-31 16:29:35.800 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 1422.2932 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:30:15.570 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:30:15.598 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:30:15.716 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:30:15.717 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:30:15.718 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:30:16.223 +02:00 [INF] HTTP GET / responded 404 in 0.8002 ms
+2024-12-31 16:30:17.965 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1152.2324 ms
+2024-12-31 16:30:18.119 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.2265 ms
+2024-12-31 16:30:36.194 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:30:36.219 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:30:36.306 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:30:36.308 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:30:36.309 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:30:36.866 +02:00 [INF] HTTP GET / responded 404 in 0.8085 ms
+2024-12-31 16:30:38.631 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1211.6017 ms
+2024-12-31 16:30:38.809 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 52.5899 ms
+2024-12-31 16:30:41.593 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 1364.8457 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:33:54.088 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:33:54.110 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:33:54.195 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:33:54.197 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:33:54.198 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:33:54.847 +02:00 [INF] HTTP GET / responded 404 in 0.4700 ms
+2024-12-31 16:33:57.156 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1256.3396 ms
+2024-12-31 16:33:57.320 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 51.8408 ms
+2024-12-31 16:34:11.026 +02:00 [ERR] HTTP GET /api/Accommodation/ /SearchAccommodation responded 500 in 8671.9610 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 16:35:29.424 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:35:29.443 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:35:29.528 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:35:29.529 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:35:29.530 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:35:29.797 +02:00 [INF] HTTP GET / responded 404 in 0.4971 ms
+2024-12-31 16:35:32.121 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1273.5050 ms
+2024-12-31 16:35:32.292 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.8950 ms
+2024-12-31 16:36:09.310 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 16:36:09.331 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 16:36:09.410 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 16:36:09.412 +02:00 [INF] Hosting environment: Development
+2024-12-31 16:36:09.413 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 16:36:10.216 +02:00 [INF] HTTP GET / responded 404 in 0.6425 ms
+2024-12-31 16:36:11.871 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1164.0023 ms
+2024-12-31 16:36:12.030 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.5697 ms
+2024-12-31 16:36:19.605 +02:00 [INF] HTTP GET /api/Accommodation/34382918-8cbf-4b5f-5563-08dd299989ff responded 200 in 138.3063 ms
+2024-12-31 16:36:20.768 +02:00 [INF] HTTP POST /api/Accommodation/34382918-8cbf-4b5f-5563-08dd299989ff responded 204 in 93.1222 ms
+2024-12-31 16:36:20.797 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 7.3096 ms
+2024-12-31 16:36:20.819 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.0685 ms
+2024-12-31 18:41:25.726 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 18:41:25.758 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 18:41:25.888 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 18:41:25.889 +02:00 [INF] Hosting environment: Development
+2024-12-31 18:41:25.889 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 18:41:27.222 +02:00 [INF] HTTP GET / responded 404 in 0.9500 ms
+2024-12-31 18:41:29.769 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2292.8486 ms
+2024-12-31 18:41:29.994 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 74.0547 ms
+2024-12-31 18:41:35.831 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 138.8279 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 18:42:11.071 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 18:42:11.101 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 18:42:11.199 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 18:42:11.201 +02:00 [INF] Hosting environment: Development
+2024-12-31 18:42:11.201 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 18:42:11.774 +02:00 [INF] HTTP GET / responded 404 in 0.6435 ms
+2024-12-31 18:42:13.881 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1149.2955 ms
+2024-12-31 18:42:14.036 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.9825 ms
+2024-12-31 18:42:17.903 +02:00 [ERR] HTTP GET /api/Accommodation/s/SearchAccommodation responded 500 in 124.4532 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 18:42:23.946 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 18:42:23.968 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 18:42:24.056 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 18:42:24.057 +02:00 [INF] Hosting environment: Development
+2024-12-31 18:42:24.058 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 18:42:25.114 +02:00 [INF] HTTP GET / responded 404 in 0.8107 ms
+2024-12-31 18:42:26.689 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1188.6811 ms
+2024-12-31 18:42:26.846 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 51.6191 ms
+2024-12-31 18:42:32.704 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 118.6396 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 18:42:35.197 +02:00 [ERR] HTTP GET /api/Accommodation/ /SearchAccommodation responded 500 in 54.2335 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 18:50:55.222 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 18:50:55.242 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 18:50:55.315 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 18:50:55.317 +02:00 [INF] Hosting environment: Development
+2024-12-31 18:50:55.317 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 18:50:55.643 +02:00 [INF] HTTP GET / responded 404 in 0.1261 ms
+2024-12-31 18:50:57.432 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1944.0715 ms
+2024-12-31 18:50:57.591 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.1623 ms
+2024-12-31 18:51:00.940 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0310 ms
+2024-12-31 19:01:07.730 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:01:07.749 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:01:07.846 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:01:07.847 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:01:07.848 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:01:08.603 +02:00 [INF] HTTP GET / responded 404 in 0.9627 ms
+2024-12-31 19:01:10.936 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1908.4702 ms
+2024-12-31 19:01:11.109 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 50.6385 ms
+2024-12-31 19:28:42.173 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:28:42.196 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:28:42.326 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:28:42.327 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:28:42.328 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:29:54.398 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:29:54.422 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:29:54.518 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:29:54.520 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:29:54.521 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:29:55.092 +02:00 [INF] HTTP GET / responded 404 in 0.5935 ms
+2024-12-31 19:29:57.629 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1871.4670 ms
+2024-12-31 19:29:57.780 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.9921 ms
+2024-12-31 19:30:02.855 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 118.8730 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-31 19:30:20.626 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:30:20.648 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:30:20.755 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:30:20.756 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:30:20.757 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:30:21.496 +02:00 [INF] HTTP GET / responded 404 in 0.4540 ms
+2024-12-31 19:30:22.765 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1147.2977 ms
+2024-12-31 19:30:22.913 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.3656 ms
+2024-12-31 19:30:27.954 +02:00 [INF] HTTP GET /api/Accommodation/Cozy/SearchAccommodation responded 200 in 116.3467 ms
+2024-12-31 19:31:38.249 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:31:38.272 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:31:38.366 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:31:38.367 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:31:38.368 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:31:39.091 +02:00 [INF] HTTP GET / responded 404 in 0.6171 ms
+2024-12-31 19:31:40.422 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1147.8736 ms
+2024-12-31 19:31:40.577 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.9814 ms
+2024-12-31 19:31:43.808 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 14.1443 ms
+2024-12-31 19:32:11.810 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 6.2307 ms
+2024-12-31 19:33:27.776 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:33:27.802 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:33:27.899 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:33:27.900 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:33:27.901 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:33:28.744 +02:00 [INF] HTTP GET / responded 404 in 0.9745 ms
+2024-12-31 19:33:30.235 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1290.6239 ms
+2024-12-31 19:33:30.380 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 48.3429 ms
+2024-12-31 19:33:31.289 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 17.0522 ms
+2024-12-31 19:54:58.912 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:54:58.946 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:54:59.170 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:54:59.172 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:54:59.173 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:54:59.788 +02:00 [INF] HTTP GET / responded 404 in 0.6865 ms
+2024-12-31 19:56:28.667 +02:00 [INF] Now listening on: https://localhost:7288
+2024-12-31 19:56:28.695 +02:00 [INF] Now listening on: http://localhost:5212
+2024-12-31 19:56:28.900 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 19:56:28.901 +02:00 [INF] Hosting environment: Development
+2024-12-31 19:56:28.902 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2024-12-31 19:56:29.376 +02:00 [INF] HTTP GET / responded 404 in 0.7465 ms
+2024-12-31 19:56:31.649 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1733.5984 ms
+2024-12-31 19:56:31.815 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.1964 ms
+2024-12-31 19:56:34.055 +02:00 [INF] HTTP GET /api/Accommodation/Cozy/SearchAccommodation responded 200 in 107.2445 ms
+2024-12-31 19:56:36.948 +02:00 [ERR] HTTP GET /api/Accommodation/a/SearchAccommodation responded 500 in 90.9413 ms
+Restino.Application.Exceptions.ValidationException: Exception of type 'Restino.Application.Exceptions.ValidationException' was thrown.
+   at Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListQueryHandler.Handle(SearchAccommodationListQuery request, CancellationToken cancellationToken) in C:\Users\Smaga\source\repos\Restino1\Restino.Application\Features\Accommodation\Queries\SearchAccommodationList\SearchAccommodationListQueryHandler.cs:line 26
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Restino.Api.Controllers.AccommodationController.SearchAccommodation(String AccommodationName) in C:\Users\Smaga\source\repos\Restino1\Restino.Api\Controllers\AccommodationController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)

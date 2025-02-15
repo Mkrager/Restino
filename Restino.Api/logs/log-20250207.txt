@@ -1,0 +1,45 @@
+2025-02-07 15:49:45.308 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 15:49:45.327 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 15:49:45.423 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:49:45.424 +02:00 [INF] Hosting environment: Development
+2025-02-07 15:49:45.425 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 15:51:29.199 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 15:51:29.221 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 15:51:29.296 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:51:29.298 +02:00 [INF] Hosting environment: Development
+2025-02-07 15:51:29.298 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 15:52:57.542 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 15:52:57.566 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 15:52:57.669 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:52:57.671 +02:00 [INF] Hosting environment: Development
+2025-02-07 15:52:57.672 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 15:56:36.870 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 15:56:36.895 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 15:56:37.015 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:56:37.016 +02:00 [INF] Hosting environment: Development
+2025-02-07 15:56:37.017 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 15:58:29.262 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 15:58:29.285 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 15:58:29.375 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:58:29.376 +02:00 [INF] Hosting environment: Development
+2025-02-07 15:58:29.377 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 15:59:22.266 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 15:59:22.290 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 15:59:22.393 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:59:22.395 +02:00 [INF] Hosting environment: Development
+2025-02-07 15:59:22.396 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 15:59:34.048 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 15:59:34.074 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 15:59:34.176 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:59:34.177 +02:00 [INF] Hosting environment: Development
+2025-02-07 15:59:34.178 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 16:00:39.543 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 16:00:39.567 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 16:00:39.656 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 16:00:39.658 +02:00 [INF] Hosting environment: Development
+2025-02-07 16:00:39.659 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-07 16:03:04.783 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-07 16:03:04.811 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-07 16:03:04.934 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 16:03:04.935 +02:00 [INF] Hosting environment: Development
+2025-02-07 16:03:04.936 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api

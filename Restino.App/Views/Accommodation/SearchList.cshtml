@@ -1,0 +1,38 @@
+﻿@model List<AccommodationSearchListViewModel>
+
+@{
+    var successMessage = TempData["SearchMessage"] as string;
+}
+
+<div class="accommodation" style="margin-top: 0px;">
+    <div class="container">
+        <h2 class="h2">@successMessage</h2>
+        <div class="accommodation-flex">
+            @foreach (var searchResult in Model)
+            {
+                <div class="accommodation-item">
+                    <div class="accommodation-content">
+                    <img src="@searchResult.ImgUrl" alt="" class="accommodation-img">
+                        <h2 class="accommodation-title">@searchResult.Name</h2>
+
+                        <div class="accommodation-blocks">
+                            <div class="accommodation-block">
+                                <img class="accommodation-icon" src="img/h.png" alt="">
+                                <span class="accommodation-label">Test</span>
+                            </div>
+                        </div>
+                        <p class="accommodation-description">@searchResult.ShortDescription</p>
+                        <p class="accommodation-description">Category: @searchResult.Category.CategoryName</p>
+                        <p class="accommodation-description">Price: @searchResult.Price per day</p>
+                        <p class="accommodation-description">Capacity: @searchResult.Capacity</p>
+                        <p class="accommodation-description">Address: @searchResult.Address</p>
+
+                        <div class="accommodation-price">@searchResult.Price $</div>
+                        <a asp-controller="Accommodation" asp-action="Details" asp-route-AccommodationId="@searchResult.AccommodationsId" class="accommodation-btn">Details</a>
+                    </div>
+
+                </div>
+            }
+        </div>
+    </div>
+</div>

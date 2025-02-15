@@ -1,0 +1,95 @@
+﻿@model AccountViewModel
+
+@{
+    var accommodations = TempData["Accommodations"] as List<AccommodationUserListViewModel>;
+}
+
+<div class="wrapper">
+    <menu>
+        <h1 class="h1-1">
+            Hello, <br>
+            <a class="nickname">@Model.UserName</a>
+        </h1>
+
+        <form action="" class="repassword">
+            <input class="menu-input" type="password" placeholder="Change password">
+            <button class="menu-btn">Change</button>
+        </form>
+        <div class="menu-links">
+            <a href="" class="menu-btn">Add two factor authentication</a>
+            <a asp-controller="Accommodation" asp-action="Create" class="menu-btn">Add accommodation</a>
+            <a asp-controller="Account" asp-action="Logout" class="menu-btn menu-btn-danger">Logout</a>
+        </div>
+
+    </menu>
+    <div class="content">
+        <div class="account">
+            <div class="container">
+                <h2 class="h2-1">Your proposition</h2>
+
+                @if (accommodations.Count <= 0)
+                {
+                    <h2 class="hot-title">You haven't added any proposition yet.</h2>
+                }
+                else
+                {
+                    <div class="account-flex">
+                        @foreach (var accommodation in accommodations)
+                        {
+                            <div class="account-item">
+                                <img src="@accommodation.ImgUrl" alt="" class="account-img">
+                                <div class="account-content">
+                                    <h2 class="hot-title">@accommodation.Name</h2>
+                                    <p class="hot-description">@accommodation.ShortDescription</p>
+                                    <p class="hot-description">Category: @accommodation.Category.CategoryName</p>
+                                    <p class="hot-description">Price: @accommodation.Price per day</p>
+                                    <p class="hot-description">Capacity: @accommodation.Capacity</p>
+                                    <p class="hot-description">Address: @accommodation.Address</p>
+                                    <a asp-controller="Accommodation" asp-action="Details" asp-route-AccommodationId="@accommodation.AccommodationsId" class="account-accommodation-btn">Details</a>
+                                    <a href="@Url.Action("Update", "Accommodation", new { id = accommodation.AccommodationsId})" class="account-accommodation-btn">Update</a>
+                                    <a class="account-accommodation-btn" onclick="deleteAccommodation('@accommodation.AccommodationsId')">Delete</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+         let hide = true;
+
+        let toggle = document.querySelector(".form-toggle")
+        let img = document.querySelector(".form-img")
+        let password = document.querySelector(".password")
+
+        toggle.onclick = () => {
+           hide = !hide;
+           if (hide){
+              img.src = "show.png"
+              password.type = "password"
+           } else{
+              img.src = "hide.png"
+              password.type = "text"
+           }
+        }
+
+        function deleteAccommodation(accommodationId) {
+            $.ajax({
+                url: '@Url.Action("Delete", "Accommodation")/' + accommodationId,
+                type: 'DELETE',
+                dataType: 'json',
+                success: function (response) {
+                    window.location.href = "/Home/Index";
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Сталася помилка при видаленні. Спробуйте ще раз.');
+                }
+            });
+        }
+    </script>
+}

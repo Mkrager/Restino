@@ -1,0 +1,46 @@
+2025-01-07 17:19:21.093 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-07 17:19:21.148 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-07 17:19:21.265 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 17:19:21.267 +02:00 [INF] Hosting environment: Development
+2025-01-07 17:19:21.268 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-07 17:19:21.567 +02:00 [INF] HTTP GET / responded 404 in 0.5925 ms
+2025-01-07 17:19:23.967 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 2289.2251 ms
+2025-01-07 17:19:24.130 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 50.4424 ms
+2025-01-07 17:19:25.611 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 13.7377 ms
+2025-01-07 17:19:25.632 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.7994 ms
+2025-01-07 17:33:14.914 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-07 17:33:14.937 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-07 17:33:15.041 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 17:33:15.042 +02:00 [INF] Hosting environment: Development
+2025-01-07 17:33:15.043 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-07 17:33:15.669 +02:00 [INF] HTTP GET / responded 404 in 1.0642 ms
+2025-01-07 17:35:32.782 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-07 17:35:32.811 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-07 17:35:32.912 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 17:35:32.913 +02:00 [INF] Hosting environment: Development
+2025-01-07 17:35:32.914 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-07 17:35:33.616 +02:00 [INF] HTTP GET / responded 404 in 0.6631 ms
+2025-01-07 17:35:35.852 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1760.3543 ms
+2025-01-07 17:35:36.010 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 45.9696 ms
+2025-01-07 17:35:37.527 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 14.0540 ms
+2025-01-07 17:35:37.543 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.4072 ms
+2025-01-07 23:15:08.862 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-07 23:15:08.879 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-07 23:15:08.945 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 23:15:08.946 +02:00 [INF] Hosting environment: Development
+2025-01-07 23:15:08.947 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-07 23:15:11.421 +02:00 [INF] HTTP GET / responded 404 in 0.1479 ms
+2025-01-07 23:15:11.884 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1297.2158 ms
+2025-01-07 23:15:12.047 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.7389 ms
+2025-01-07 23:15:15.366 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 13.8341 ms
+2025-01-07 23:15:15.383 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.5918 ms
+2025-01-07 23:25:10.208 +02:00 [INF] Now listening on: https://localhost:7288
+2025-01-07 23:25:10.227 +02:00 [INF] Now listening on: http://localhost:5212
+2025-01-07 23:25:10.302 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 23:25:10.304 +02:00 [INF] Hosting environment: Development
+2025-01-07 23:25:10.304 +02:00 [INF] Content root path: C:\Users\Smaga\source\repos\Restino1\Restino.Api
+2025-01-07 23:25:11.390 +02:00 [INF] HTTP GET / responded 404 in 0.4828 ms
+2025-01-07 23:25:12.605 +02:00 [INF] HTTP GET /api/Accommodation responded 200 in 1063.9337 ms
+2025-01-07 23:25:12.752 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 46.2239 ms
+2025-01-07 23:25:15.429 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 13.8908 ms
+2025-01-07 23:25:15.445 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 5.7606 ms

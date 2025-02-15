@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gje7k9cvcEQ7UsV8fraeH9zq9hIAocZIPVBaYFJ7Drg=",
+  "Source": "Restino.Api",
+  "BasePath": "_content/Restino.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
