@@ -1,0 +1,33 @@
+﻿@model AccommodationDetailViewModel
+@inject IHttpContextAccessor HttpContextAccessor
+
+<div class="element">
+    <div class="el-flex container">
+        <div class="el-imgarea">
+            <img class="el-img" src="@Model.ImgUrl" alt="">
+            <h3 class="el-h3">@Model.Name</h3>
+            <div class="el-buttons">
+                @* Іконки типу класні оті самі та та та *@
+            </div>
+        </div>
+        <div class="el-data">
+            <p class="el-p">@Model.Name</p>
+            <p class="el-p">@Model.LongDescription</p>
+            <p class="el-p">Capacity: @Model.Capacity</p>
+            <p class="el-p">Address: @Model.Address</p>
+            <p class="el-p">Category: @Model.Category.CategoryName</p>
+            <p class="accommodation-price-details">Price: @Model.Price$ per day</p>
+            @if (HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token"))
+            {
+                <a href="@Url.Action("Create", "Reservation", new { id = Model.AccommodationsId})" class="el-btn">Reserve</a>
+            }
+            else
+            {
+                <p class="el-p">You need to be authenticated to make a reservation.<a class="el-btn" asp-controller="Account" asp-action="Login"> Sign-in</a></p>
+            }
+        </div>
+    </div>
+</div>
+
+
+

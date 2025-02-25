@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Restino.Api\\Restino.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Restino.App\\Restino.App.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

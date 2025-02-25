@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Smaga\\Desktop\\Restino-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|c:\\users\\smaga\\desktop\\restino-master\\restino.app\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|solutionrelative:restino.app\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|c:\\users\\smaga\\desktop\\restino-master\\restino.app\\views\\account\\overview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|solutionrelative:restino.app\\views\\account\\overview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|c:\\users\\smaga\\desktop\\restino-master\\restino.app\\services\\reservationdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|solutionrelative:restino.app\\services\\reservationdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1FCCC1-1E0E-436B-A3C4-0BC917232222}|Restino.Api\\Restino.Api.csproj|c:\\users\\smaga\\desktop\\restino-master\\restino.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1FCCC1-1E0E-436B-A3C4-0BC917232222}|Restino.Api\\Restino.Api.csproj|solutionrelative:restino.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|c:\\users\\smaga\\desktop\\restino-master\\restino.app\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|solutionrelative:restino.app\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|c:\\users\\smaga\\desktop\\restino-master\\restino.app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|solutionrelative:restino.app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|c:\\users\\smaga\\desktop\\restino-master\\restino.app\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB31127F-C48B-4DAD-B960-1D20F388DCF9}|Restino.App\\Restino.App.csproj|solutionrelative:restino.app\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 229,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Restino.App\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Restino.App\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:29:58.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Restino.App\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Restino.App\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:29:54.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.Api\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Restino.Api\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.Api\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Restino.Api\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:25:08.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationDataService.cs",
+              "DocumentMoniker": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Services\\ReservationDataService.cs",
+              "RelativeDocumentMoniker": "Restino.App\\Services\\ReservationDataService.cs",
+              "ToolTip": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Services\\ReservationDataService.cs",
+              "RelativeToolTip": "Restino.App\\Services\\ReservationDataService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAqwGMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:13:41.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "Restino.App\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "Restino.App\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T13:16:34.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Overview.cshtml",
+              "DocumentMoniker": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Views\\Account\\Overview.cshtml",
+              "RelativeDocumentMoniker": "Restino.App\\Views\\Account\\Overview.cshtml",
+              "ToolTip": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Views\\Account\\Overview.cshtml",
+              "RelativeToolTip": "Restino.App\\Views\\Account\\Overview.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T13:15:12.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Restino.App\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Smaga\\Desktop\\Restino-master\\Restino.App\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Restino.App\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwDcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:13:39.151Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

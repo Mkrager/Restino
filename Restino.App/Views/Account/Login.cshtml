@@ -1,0 +1,53 @@
+﻿@model LoginResponse
+
+@{
+    var message = TempData["Message"] as string;
+}
+
+<div class="form">
+    <form asp-action="Login" method="post" role="form" id="loginForm">
+        <h1>Login</h1>
+        <h1 class="message">@message</h1>
+
+        <div asp-validation-summary="All" class="error-text"></div>
+
+        <div class="form-content">
+            <input asp-for="Email" class="form-input" type="email" placeholder="Email" />
+            <span asp-validation-for="Email" class="error-text"></span>
+        </div>
+
+        <div class="form-password">
+            <input asp-for="Password" class="form-input password" type="password" placeholder="Password" />
+            <span asp-validation-for="Password" class="error-text"></span>
+            <img class="form-img" src="/Images/show.png" alt="Show password" />
+        </div>
+
+        <input type="submit" class="form-btn" value="Login" />
+
+        <p class="form-loggined">Register: <a asp-controller="Account" asp-action="Register">Sign-up!</a></p>
+    </form>
+</div>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let hide = true;
+
+            const toggle = document.querySelector(".form-img");
+            const password = document.querySelector(".password");
+
+            toggle.onclick = () => {
+                hide = !hide;
+                if (hide) {
+                    toggle.src = "/Images/show.png";
+                    password.type = "password";
+                } else {
+                    toggle.src = "/Images/hide.png";
+                    password.type = "text";
+                }
+            };
+        });
+    </script>
+}
+

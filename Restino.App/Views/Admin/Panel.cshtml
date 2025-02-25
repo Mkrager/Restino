@@ -1,0 +1,56 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@inject JwtHelper JwtHelper
+@model IEnumerable<CategoryViewModel>
+
+@{
+    var userRole = JwtHelper.GetUserRoleFromToken();
+}
+
+@if (HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token") && userRole == "Admin")
+{
+    <div class="wrapper">
+        <menu>
+            <h1 class="h1-1">
+                User search <br>
+            </h1>
+            <form asp-controller="User" asp-action="Search" method="get" class="header-form">
+                <input type="text" name="searchString" placeholder="Search" class="menu-input" />
+                <button type="submit" class="menu-btn">Search</button>
+            </form>
+            <div class="menu-links">
+                <a asp-controller="Category" asp-action="Create" class="menu-btn">Add category</a>
+                <a asp-controller="Reservation" asp-action="List" class="menu-btn">Reservation list</a>
+            </div>
+
+        </menu>
+        <div class="content">
+            <div class="account">
+                <div class="container">
+                    <h2 class="h2-1">Categories</h2>
+                    <div class="cat container">
+                        <div class="cat-flex">
+                            @foreach (var category in Model)
+                            {
+                                <div class="cat-block">
+                                    <img class="cat-img" src="@category.ImgUrl" alt="">
+                                    <div class="cat-content">
+                                        <div>
+                                            <h2 class="cat-header">@category.CategoryName</h2>
+                                            <a asp-controller="Category" asp-action="Details" asp-route-Id="@category.CategoriesId" class="cat-btn">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+else
+{
+    <h1>You dont have permision</h1>
+}
+

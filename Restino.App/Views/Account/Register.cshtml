@@ -1,0 +1,67 @@
+﻿@model RegistrationRequest
+
+@{
+    var message = TempData["Message"] as string;
+}
+
+<div class="form">
+    <form asp-action="Register" method="post" role="form" id="registerForm">
+        <h1>Register</h1>
+        <h1 class="message">@message</h1>
+        <div asp-validation-summary="All" class="error-text"></div>
+
+        <div class="form-content">
+            <input asp-for="FirstName" class="form-input" placeholder="First Name" />
+            <span asp-validation-for="FirstName" class="error-text"></span>
+        </div>
+
+        <div class="form-content">
+            <input asp-for="LastName" class="form-input" placeholder="Last Name" />
+            <span asp-validation-for="LastName" class="error-text"></span>
+        </div>
+
+        <div class="form-content">
+            <input asp-for="Email" class="form-input" type="email" placeholder="Email" />
+            <span asp-validation-for="Email" class="error-text"></span>
+        </div>
+
+        <div class="form-content">
+            <input asp-for="UserName" class="form-input" placeholder="Login" />
+            <span asp-validation-for="UserName" class="error-text"></span>
+        </div>
+
+        <div class="form-password">
+            <input asp-for="Password" class="form-input password" type="password" placeholder="Password" />
+            <span asp-validation-for="Password" class="error-text"></span>
+            <img class="form-img" src="/Images/show.png" alt="Show password" />
+        </div>
+
+        <input type="submit" class="form-btn" value="Register" />
+
+        <p class="form-loggined">Register already? <a asp-controller="Account" asp-action="Login">Sign-in!</a></p>
+    </form>
+</div>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let hide = true;
+
+            const toggle = document.querySelector(".form-img");
+            const password = document.querySelector(".password");
+
+            toggle.onclick = () => {
+                hide = !hide;
+                if (hide) {
+                    toggle.src = "/Images/show.png";
+                    password.type = "password";
+                } else {
+                    toggle.src = "/Images/hide.png";
+                    password.type = "text";
+                }
+            };
+        });
+    </script>
+}
+

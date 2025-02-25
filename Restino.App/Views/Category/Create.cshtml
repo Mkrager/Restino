@@ -1,0 +1,33 @@
+﻿@model CategoryViewModel
+
+@{
+    var message = TempData["Message"] as string;
+}
+
+<form asp-action="Create" method="post" role="form" id="createForm">
+    <div class="new container">
+        <h1 class="message">@message</h1>
+        <div asp-validation-summary="All" class="error-text"></div>
+
+        <div>
+            <label asp-for="CategoryName" class="create-title">Name</label>
+            <input asp-for="CategoryName" class="new-input" />
+            <span asp-validation-for="CategoryName" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="Description" class="create-title"></label>
+            <input asp-for="Description" class="new-input" />
+            <span asp-validation-for="Description" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="ImgUrl" class="create-title"></label>
+            <input asp-for="ImgUrl" class="new-input" />
+            <span asp-validation-for="ImgUrl" class="error-text"></span>
+        </div>
+
+        <input type="submit" class="confirm-btn" value="Create" />
+
+    </div>
+</form>

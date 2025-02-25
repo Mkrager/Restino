@@ -1,0 +1,323 @@
+2025-02-22 15:11:04.678 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:11:04.704 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:11:04.789 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:11:04.791 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:11:04.792 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:11:22.251 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method356(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method356(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:11:40.456 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method356(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method356(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:12:11.633 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:12:11.659 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:12:11.817 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:12:11.820 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:12:11.821 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:12:27.562 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:13:01.354 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:13:01.378 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:13:01.520 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:13:01.521 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:13:01.521 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:13:10.105 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:13:34.169 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:13:34.187 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:13:34.265 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:13:34.266 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:13:34.266 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:13:50.559 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:14:46.933 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:14:46.950 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:14:47.063 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:14:47.064 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:14:47.065 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:14:56.446 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:16:26.924 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:16:26.956 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:16:27.103 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:16:27.106 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:16:27.106 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:16:43.286 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:17:49.197 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:17:49.221 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:17:49.382 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:17:49.384 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:17:49.385 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:18:02.022 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:20:37.016 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:20:37.032 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:20:37.118 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:20:37.119 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:20:37.119 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:20:47.480 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:21:16.000 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:21:16.019 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:21:16.100 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:21:16.101 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:21:16.102 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:21:25.367 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:22:17.797 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:22:17.817 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:22:17.927 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:22:17.929 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:22:17.930 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:22:37.932 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:23:10.138 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:23:10.158 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:23:10.244 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:23:10.245 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:23:10.246 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:23:36.846 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Restino.Persistence.RestinoDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method328(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-02-22 15:25:47.790 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:25:47.808 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:25:47.889 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:25:47.891 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:25:47.892 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:26:08.591 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:26:08.609 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:26:08.683 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:26:08.684 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:26:08.684 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:28:09.885 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:28:09.913 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:28:10.012 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:28:10.013 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:28:10.014 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:41:04.144 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:41:04.169 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:41:04.262 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:41:04.263 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:41:04.264 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:45:27.186 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:45:27.206 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:45:27.301 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:45:27.303 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:45:27.303 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:47:18.737 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:47:18.755 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:47:18.837 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:47:18.839 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:47:18.839 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:47:54.255 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:47:54.273 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:47:54.353 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:47:54.354 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:47:54.355 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 15:50:16.677 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 15:50:16.701 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 15:50:16.802 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 15:50:16.803 +02:00 [INF] Hosting environment: Development
+2025-02-22 15:50:16.804 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:14:53.022 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:14:53.045 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:14:53.141 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:14:53.142 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:14:53.143 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:15:36.042 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:15:36.067 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:15:36.155 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:15:36.156 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:15:36.157 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:18:57.739 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:18:57.760 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:18:57.850 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:18:57.851 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:18:57.852 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:19:50.569 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:19:50.595 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:19:50.755 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:19:50.756 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:19:50.757 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:20:36.618 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:20:36.640 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:20:36.773 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:20:36.775 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:20:36.776 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:22:13.430 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:22:13.449 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:22:13.540 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:22:13.541 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:22:13.541 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:23:34.033 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:23:34.055 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:23:34.146 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:23:34.148 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:23:34.149 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:26:36.967 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:26:36.999 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:26:37.179 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:26:37.181 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:26:37.184 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:27:47.574 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:27:47.599 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:27:47.743 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:27:47.744 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:27:47.745 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:29:18.740 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:29:18.760 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:29:18.891 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:29:18.893 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:29:18.894 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:31:09.660 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:31:09.679 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:31:09.755 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:31:09.757 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:31:09.758 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:32:21.115 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:32:21.140 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:32:21.245 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:32:21.248 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:32:21.250 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:33:05.027 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:33:05.046 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:33:05.128 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:33:05.129 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:33:05.129 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:33:44.974 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:33:44.996 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:33:45.072 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:33:45.073 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:33:45.074 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:36:03.160 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:36:03.181 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:36:03.273 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:36:03.275 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:36:03.276 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:38:15.924 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:38:15.941 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:38:16.015 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:38:16.016 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:38:16.017 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:40:24.532 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:40:24.552 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:40:24.640 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:40:24.642 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:40:24.642 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 20:40:51.975 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 20:40:51.996 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 20:40:52.103 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 20:40:52.104 +02:00 [INF] Hosting environment: Development
+2025-02-22 20:40:52.105 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 21:32:17.622 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 21:32:17.647 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 21:32:17.752 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 21:32:17.754 +02:00 [INF] Hosting environment: Development
+2025-02-22 21:32:17.756 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api
+2025-02-22 21:34:42.872 +02:00 [INF] Now listening on: https://localhost:7288
+2025-02-22 21:34:42.911 +02:00 [INF] Now listening on: http://localhost:5212
+2025-02-22 21:34:43.092 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-22 21:34:43.094 +02:00 [INF] Hosting environment: Development
+2025-02-22 21:34:43.095 +02:00 [INF] Content root path: C:\Users\Smaga\Desktop\Restino-master\Restino.Api

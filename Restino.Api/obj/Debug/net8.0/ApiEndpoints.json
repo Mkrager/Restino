@@ -1,0 +1,760 @@
+[
+  {
+    "ContainingType": "Restino.Api.Controllers.AccommodationController",
+    "Method": "GetAllAccommodations",
+    "RelativePath": "api/Accommodation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isAccommodationHot",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.Features.Accommodation.Queries.GetAccommodationList.AccommodationListVm, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "GetAllAccommodations"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccommodationController",
+    "Method": "Create",
+    "RelativePath": "api/Accommodation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAccommodationCommand",
+        "Type": "Restino.Application.Features.Accommodation.Commands.CreateAccommodation.CreateAccommodationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "AddAccommodation"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccommodationController",
+    "Method": "Update",
+    "RelativePath": "api/Accommodation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateAccommodationCommand",
+        "Type": "Restino.Application.Features.Accommodation.Commands.UpdateAccommodation.UpdateAccommodationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "UpdateAccommdation"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccommodationController",
+    "Method": "GetAccommodationById",
+    "RelativePath": "api/Accommodation/{AccommodationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AccommodationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restino.Application.Features.Accommodation.Queries.GetAccommodationDetails.AccommodationDetailsVm",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAccommodationById"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccommodationController",
+    "Method": "Delete",
+    "RelativePath": "api/Accommodation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "DeleteAccommodation"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccommodationController",
+    "Method": "GetUserAccommodations",
+    "RelativePath": "api/Accommodation/GetUserAccommodations/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.Features.Accommodation.Queries.GetUserAccommodationList.UserAccommodationListVm, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "GetUserAccommodations"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccommodationController",
+    "Method": "SearchAccommodation",
+    "RelativePath": "api/Accommodation/SearchAccommodation/{AccommodationName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AccommodationName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.Features.Accommodation.Queries.SearchAccommodationList.SearchAccommodationListVm, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "SearchAccommodation"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccountController",
+    "Method": "AuthenticateAsync",
+    "RelativePath": "api/Account/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Restino.Application.DTOs.AuthenticationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restino.Application.DTOs.AuthenticationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.AccountController",
+    "Method": "RegisterAsync",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Restino.Application.DTOs.RegistrationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restino.Application.DTOs.RegistrationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCategoryCommand",
+        "Type": "Restino.Application.Features.Category.Commands.CreateCategoryCommand.CreateCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "AddCategory"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.CategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Category/{CategoriesId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoriesId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restino.Application.Features.Category.Queries.GetCategoryDetails.CategoryDetailsVm",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetCategoryById"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "DeleteCategory"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Category/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.Features.Category.Queries.GetCategoriesList.CategoryListVm, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllCategories"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.CategoryController",
+    "Method": "GetAllCategoriesWithAccommodations",
+    "RelativePath": "api/Category/allwithcategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "onlyOneCategoryResult",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      },
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.Features.Category.Queries.GetCategoriesListWithAccommodation.CategoryAccommodationListVm, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllCategoriesWithAccommodations"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.ReservationController",
+    "Method": "GetAllReservations",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.Features.Reservation.Queries.GetReservationList.ReservationListVm, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "GetAllReservation"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.ReservationController",
+    "Method": "Create",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createReservationCommand",
+        "Type": "Restino.Application.Features.Reservation.Commands.CreateReservation.CreateReservationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "AddReservation"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.ReservationController",
+    "Method": "Delete",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "DeleteReservation"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.ReservationController",
+    "Method": "GetReservationById",
+    "RelativePath": "api/Reservation/{ReservationsId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReservationsId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restino.Application.Features.Reservation.Queries.GetReservatioDetails.ReservationDetailsVm",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetReservationById"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.ReservationController",
+    "Method": "GetUserReservations",
+    "RelativePath": "api/Reservation/GetUserReservations/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.Features.Reservation.Queries.GetUserReservations.GetUserReservationListVm, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "GetUserReservations"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.DTOs.GetUserDetailsResponse, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "GetAllUsers"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/Delete/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "DeleteUser"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.UserController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/User/GetById/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restino.Application.DTOs.GetUserDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetById"
+  },
+  {
+    "ContainingType": "Restino.Api.Controllers.UserController",
+    "Method": "SearchUser",
+    "RelativePath": "api/User/SearchUser/{UserName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Restino.Application.DTOs.SearchUserResponse, Restino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "SearchUser"
+  }
+]

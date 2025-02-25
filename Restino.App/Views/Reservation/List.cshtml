@@ -1,0 +1,60 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@inject JwtHelper JwtHelper
+@model List<ReservationListViewModel>
+
+@{
+    var userRole = JwtHelper.GetUserRoleFromToken();
+}
+
+@if (HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token") && userRole == "Admin")
+{
+    <div class="accommodation" style="margin-top: 0px;">
+        <div class="container">
+            <div class="accommodation-flex">
+                @foreach (var reservation in Model)
+                {
+                    <div class="accommodation-item">
+                        <div class="accommodation-content">
+                            <h2 class="accommodation-title">User id: @reservation.UserId</h2>
+                            <p class="accommodation-description"><strong>Accommodation id:</strong> @reservation.AccommodationsId</p>
+                            <p class="accommodation-description"><strong>Reservation id:</strong> @reservation.ReservationId</p>
+                            <p class="accommodation-description"><strong>Customer note:</strong> @reservation.CustomerNote</p>
+                            <p class="accommodation-description"><strong>Reservation price:</strong> @reservation.ReservationPrice</p>
+                            <p class="accommodation-description"><strong>Additional services:</strong> @reservation.AdditionalServices</p>
+                            <p class="accommodation-description"><strong>Check-in date:</strong> @reservation.CheckInDate</p>
+                            <p class="accommodation-description"><strong>Check-out date:</strong> @reservation.CheckOutDate</p>
+                            <p class="accommodation-description"><strong>Guests count:</strong> @reservation.GuestsCount</p>
+                            <p class="accommodation-description"><strong>Reservation created:</strong> @reservation.ReservationCreated</p>
+
+                            <button class="hot-btn" onclick="deleteReservation('@reservation.ReservationId')">Delete</button>
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h1>You dont have permision</h1>
+}
+
+@section Scripts {
+    <script>
+        function deleteReservation(reservationId) {
+            $.ajax({
+                url: '@Url.Action("Delete")' + '?reservationId=' + reservationId,
+                type: 'DELETE',
+                dataType: 'json',
+                success: function (response) {
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Сталася помилка при видаленні. Спробуйте ще раз.');
+                }
+            });
+        }
+    </script>
+}

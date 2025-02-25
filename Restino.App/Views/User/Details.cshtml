@@ -1,0 +1,158 @@
+﻿@model GetUserDetailsResponse
+@inject JwtHelper JwtHelper
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var userRole = JwtHelper.GetUserRoleFromToken();
+    var accommodations = TempData["Accommodations"] as List<AccommodationUserListViewModel>;
+    var reservations = TempData["Reservations"] as List<ReservationListViewModel>;
+}
+
+@if (HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token") && userRole == "Admin")
+{
+    <div class="element">
+        <div class="user-flex container">
+            <div class="el-data">
+                <p class="el-p">User id: @Model.UserId</p>
+                <p class="el-p">User name: @Model.UserName</p>
+                <p class="el-p">First name: @Model.FirstName</p>
+                <p class="el-p">Last name: @Model.LastName</p>
+                <p class="el-p">User email: @Model.Email</p>
+                <a class="el-btn" onclick="deleteUser('@Model.UserId.Trim()')">Delete user</a>
+            </div>
+
+            <h2 class="h2-1">User accommodations</h2>
+
+            @if (accommodations.Count <= 0)
+            {
+                <h2 class="hot-title">User haven't added any proposition yet.</h2>
+            }
+            else
+            {
+                <div class="hot-flex">
+                    @foreach (var accommodation in accommodations)
+                    {
+                        <div class="hot-item">
+                            <img src="@accommodation.ImgUrl" alt="" class="account-img">
+                            <div class="account-content">
+                                <h2 class="hot-title">@accommodation.Name</h2>
+                                <p class="hot-description">@accommodation.ShortDescription</p>
+                                <p class="hot-description">Category: @accommodation.Category.CategoryName</p>
+                                <p class="hot-description">Price: @accommodation.Price per day</p>
+                                <p class="hot-description">Capacity: @accommodation.Capacity</p>
+                                <p class="hot-description">Address: @accommodation.Address</p>
+                                <a asp-controller="Accommodation" asp-action="Details" asp-route-AccommodationId="@accommodation.AccommodationsId" class="hot-btn">Details</a>
+                                <a href="@Url.Action("Update", "Accommodation", new { id = accommodation.AccommodationsId})" class="hot-btn">Update</a>
+                                <a class="hot-btn" onclick="deleteAccommodation('@accommodation.AccommodationsId')">Delete</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+
+
+            <h2 class="h2-1">User reservations</h2>
+
+             @if (reservations.Count <= 0)
+            {
+                <h2 class="hot-title">You haven't reserve any propositions.</h2>
+            }
+            else
+            {
+                <div class="hot-flex">
+                    @foreach (var reservation in reservations)
+                    {
+                        <div class="hot-item">
+                            <div class="account-content">
+                                <h2 class="hot-title">Accommodation: @reservation.AccommodationName</h2>
+                                <p class="hot-description">Check-in date: @reservation.CheckInDate</p>
+                                <p class="hot-description">Check-out date: @reservation.CheckOutDate</p>
+                                <p class="hot-description">Customer note: @reservation.CustomerNote</p>
+                                <p class="hot-description">Guest count: @reservation.GuestsCount</p>
+                                <p class="hot-description">Price: @reservation.ReservationPrice</p>
+                                <a asp-controller="Accommodation" asp-action="Details" asp-route-AccommodationId="@reservation.AccommodationsId" class="hot-btn">Accommodation details</a>
+                                <a class="hot-btn" onclick="deleteReservation('@reservation.ReservationId')">Delete</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+
+
+        </div>
+    </div>
+}
+else
+{
+    <h1>You dont have permision</h1>
+}
+
+@section Scripts {
+    <script>
+         let hide = true;
+
+        let toggle = document.querySelector(".form-toggle")
+        let img = document.querySelector(".form-img")
+        let password = document.querySelector(".password")
+
+        toggle.onclick = () => {
+           hide = !hide;
+           if (hide){
+              img.src = "show.png"
+              password.type = "password"
+           } else{
+              img.src = "hide.png"
+              password.type = "text"
+           }
+        }
+
+        function deleteAccommodation(accommodationId) {
+            $.ajax({
+                url: '@Url.Action("Delete", "Accommodation")/' + accommodationId,
+                type: 'DELETE',
+                dataType: 'json',
+                success: function (response) {
+                    window.location.href = "/Home/Index";
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Сталася помилка при видаленні. Спробуйте ще раз.');
+                }
+            });
+        }
+
+        function deleteUser(userId) {
+            $.ajax({
+                url: '@Url.Action("Delete", "User")' + '?userId=' + encodeURIComponent(userId),
+                type: 'DELETE',
+                dataType: 'json',
+                success: function (response) {
+                    window.location.href = "/Home/Index";
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Сталася помилка при видаленні. Спробуйте ще раз.');
+                }
+            });
+        }
+
+        function deleteReservation(reservationId) {
+            $.ajax({
+                url: '@Url.Action("Delete", "Reservation")' + '?reservationId=' + encodeURIComponent(reservationId),
+                type: 'DELETE',
+                dataType: 'json',
+                success: function (response) {
+                    window.location.href = "/Home/Index";
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Сталася помилка при видаленні. Спробуйте ще раз.');
+                }
+            });
+        }
+
+
+    </script>
+}
+
+

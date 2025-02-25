@@ -1,0 +1,26 @@
+2025-02-25 14:27:49.385 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-02-25 14:28:05.924 +02:00 [ERR] Failed executing DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [RestinoTestDb] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2025-02-25 14:28:05.956 +02:00 [ERR] An error occurred seeding the database. Error: User does not have permission to alter database 'RestinoTestDb', the database does not exist, or the database is not in a state that allows access checks.
+ALTER DATABASE statement failed.
+Microsoft.Data.SqlClient.SqlException (0x80131904): User does not have permission to alter database 'RestinoTestDb', the database does not exist, or the database is not in a state that allows access checks.
+ALTER DATABASE statement failed.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Delete()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureDeleted()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureDeleted()
+   at Restino.Api.IntegrationTests.Base.CustomWebApplicationFactory`1.<ConfigureWebHost>b__5_0(IServiceCollection services) in C:\Users\Smaga\Desktop\Restino-master\Restino.Api.IntegrationTests\Base\CustomWebApplicationFactory.cs:line 74
+ClientConnectionId:32c62c56-569c-4f3a-8c7a-c73ff256e456
+Error Number:5011,State:8,Class:14

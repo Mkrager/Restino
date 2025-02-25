@@ -1,0 +1,92 @@
+﻿@model ReservationDetailViewModel
+
+@{
+    var message = TempData["Message"] as string;
+}
+
+<form id="reservationForm" role="form" asp-action="Create" method="post">
+    <div class="new container">
+        <h1 class="message">@message</h1>
+        <div asp-validation-summary="All" class="error-text"></div>
+
+        <input type="hidden" name="AccommodationsId" value="@Model.AccommodationsId" />
+        <input type="hidden" name="AccommodationName" value="@Model.AccommodationName" />
+
+
+        <label for="CheckInDate" class="update-title">Check-in Date</label>
+        <input type="text" name="CheckInDate" id="CheckInDate" class="new-input" required />
+        <span asp-validation-for="CheckInDate" class="error-text"></span>
+
+        <label for="CheckOutDate" class="update-title">Check-out Date</label>
+        <input type="text" name="CheckOutDate" id="CheckOutDate" class="new-input" required />
+        <span asp-validation-for="CheckOutDate" class="error-text"></span>
+
+        <label for="GuestsCount" class="update-title">Number of Guests</label>
+        <input type="number" name="GuestsCount" id="GuestsCount" class="new-input" required />
+        <span asp-validation-for="GuestsCount" class="error-text"></span>
+
+        <label for="AdditionalServices" class="update-title">Additional Services</label>
+        <input type="text" name="AdditionalServices" id="AdditionalServices" class="new-input" required />
+        <span asp-validation-for="AdditionalServices" class="error-text"></span>
+
+        <label for="CustomerNote" class="update-title">Customer Note</label>
+        <input type="text" name="CustomerNote" id="CustomerNote" class="new-input" required />
+        <span asp-validation-for="CustomerNote" class="error-text"></span>
+
+        <button type="submit" class="confirm-btn">Reserve</button>
+    </div>
+</form>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const today = new Date();
+        const minDate = today.toISOString().split("T")[0];
+
+        const maxDate = new Date(today);
+        maxDate.setFullYear(maxDate.getFullYear() + 1);
+        const maxDateStr = maxDate.toISOString().split("T")[0];
+
+        const existingReservations = @Html.Raw(Json.Serialize(Model.ExistingReservations));
+
+        const unavailableDates = existingReservations.flatMap(reservation => {
+            const dates = [];
+            let start = new Date(reservation.checkInDate);
+            start.setDate(start.getDate() + 1);
+            const end = new Date(reservation.checkOutDate);
+            end.setDate(end.getDate() + 1);
+
+            while (start <= end) {
+                dates.push(new Date(start).toISOString().split("T")[0]);
+                start.setDate(start.getDate() + 1);
+            }
+            return dates;
+        });
+
+        const uniqueUnavailableDates = [...new Set(unavailableDates)];
+
+        flatpickr("#CheckInDate", {
+            minDate: minDate,
+            maxDate: maxDateStr,
+            disable: uniqueUnavailableDates,
+            dateFormat: "Y-m-d",
+            onChange: function (selectedDates, dateStr) {
+                const checkOutPicker = flatpickr("#CheckOutDate");
+
+                if (selectedDates.length > 0) {
+                    const nextDay = new Date(selectedDates[0]);
+                    nextDay.setDate(nextDay.getDate() + 1);
+
+                    checkOutPicker.set("minDate", nextDay.toISOString().split("T")[0]);
+                    checkOutPicker.set("disable", uniqueUnavailableDates.concat([nextDay.toISOString().split("T")[0]]));
+                }
+            }
+        });
+
+        flatpickr("#CheckOutDate", {
+            minDate: minDate,
+            maxDate: maxDateStr,
+            disable: uniqueUnavailableDates,
+            dateFormat: "Y-m-d"
+        });
+    });
+</script>

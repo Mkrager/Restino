@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@inject JwtHelper JwtHelper
+
+@{
+    var userId = JwtHelper.GetUserIdFromToken();
+    var userRole = JwtHelper.GetUserRoleFromToken();
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <script src="~/lib/jquery/jquery-3.7.1.min.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="container header-container">
+                <a asp-controller="Home" asp-action="Index">
+                    <img class="header-logo" src="~/Images/RestinoLogo.png" alt="Logo">
+                </a>
+                <form asp-controller="Accommodation" asp-action="SearchList" method="get" class="header-form">
+                    <input type="text" name="searchString" placeholder="Search" class="header-search" />
+                    <button type="submit" class="search-btn">Search</button>
+                </form>
+
+                <div class="header-buttons">
+                    @if (HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token") && userRole == "Admin")
+                    {
+                        <a asp-controller="Admin" asp-action="Panel" class="header-link">Admin panel</a>
+                    }
+
+                    @if (!HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token"))
+                    {
+                        <a asp-controller="Account" asp-action="Register" class="header-link">REGISTER</a>
+                        <a asp-controller="Account" asp-action="Login" class="header-link">LOGIN</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Account" asp-action="Overview" asp-route-accountId="@userId" class="header-link">Account</a>
+                    }
+                </div>
+            </div>
+        </header>
+    </div>
+
+    @RenderBody()
+    @await RenderSectionAsync("Scripts", required: false);
+
+    <div class="tech container">
+        <form action="#">
+            <h2 class="h2-1">Have a question?</h2>
+            <email address="smaga.max@gmail.com" content="Contact us" class="contact-btn"></email>
+        </form>
+    </div>
+</body>
+
+</html>

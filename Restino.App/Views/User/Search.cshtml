@@ -1,0 +1,33 @@
+﻿@model List<SearchUserResponse>
+@inject JwtHelper JwtHelper
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var userRole = JwtHelper.GetUserRoleFromToken();
+    var accommodations = TempData["Accommodations"] as List<AccommodationUserListViewModel>;
+}
+
+@if (HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token") && userRole == "Admin")
+{
+<div class="accommodation" style="margin-top: 0px;">
+    <div class="container">
+        <div class="accommodation-flex">
+            @foreach (var searchResult in Model)
+            {
+                <div class="accommodation-item">
+                    <div class="accommodation-content">
+                        <h2 class="accommodation-title">@searchResult.UserName</h2>
+
+                        <a asp-controller="User" asp-action="Details" asp-route-UserId="@searchResult.UserId" class="accommodation-btn">Details</a>
+                    </div>
+
+                </div>
+            }
+        </div>
+    </div>
+</div>
+}
+else
+{
+    <h1>You dont have permision</h1>
+}

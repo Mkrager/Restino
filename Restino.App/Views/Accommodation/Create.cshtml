@@ -1,0 +1,65 @@
+﻿@model AccommodationDetailViewModel
+
+@{
+    var categories = TempData["Categories"] as SelectList;
+    var message = TempData["Message"] as string;
+}
+
+<form asp-action="Create" method="post" role="form" id="createForm">
+    <div class="new container">
+        <h1 class="message">@message</h1>
+        <div asp-validation-summary="All" class="error-text"></div>
+
+        <div>
+            <label asp-for="Name" class="create-title"></label>
+            <input asp-for="Name" class="new-input" />
+            <span asp-validation-for="Name" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="ShortDescription" class="create-title"></label>
+            <input asp-for="ShortDescription" class="new-input" />
+            <span asp-validation-for="ShortDescription" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="LongDescription" class="create-title"></label>
+            <input asp-for="LongDescription" class="new-input" />
+            <span asp-validation-for="LongDescription" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="Capacity" class="create-title"></label>
+            <input asp-for="Capacity" class="new-input" />
+            <span asp-validation-for="Capacity" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="Address" class="create-title"></label>
+            <input asp-for="Address" class="new-input" />
+            <span asp-validation-for="Address" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="Price" class="create-title"></label>
+            <input asp-for="Price" class="new-input" />
+            <span asp-validation-for="Price" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="ImgUrl" class="create-title"></label>
+            <input asp-for="ImgUrl" class="new-input" />
+            <span asp-validation-for="ImgUrl" class="error-text"></span>
+        </div>
+
+        <div>
+            <label asp-for="CategoryId" class="create-title">Category</label>
+            <select asp-for="CategoryId" class="new-input" asp-items="@categories">
+            </select>
+            <span asp-validation-for="CategoryId" class="error-text"></span>
+        </div>
+
+        <input type="submit" class="confirm-btn" value="Create" />
+    </div>
+</form>
+

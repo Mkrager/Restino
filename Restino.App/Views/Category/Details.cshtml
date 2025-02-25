@@ -1,0 +1,43 @@
+﻿@model CategoryDetailsViewModel
+@inject IHttpContextAccessor HttpContextAccessor
+@inject JwtHelper JwtHelper
+
+@{
+    var userRole = JwtHelper.GetUserRoleFromToken();
+}
+
+<div class="element">
+    <div class="el-flex container">
+        <div class="el-imgarea">
+            <img class="el-img" src="@Model.ImgUrl" alt="">
+            <h3 class="el-h3">@Model.CategoryName</h3>
+        </div>
+        <div class="el-data">
+            <p class="el-p">@Model.Description</p>
+            <a asp-controller="Category" asp-action="CurrentCategoryAccommodations" asp-route-categoryId="@Model.CategoriesId" class="el-btn">View all @Model.CategoryName</a>
+            @if (HttpContextAccessor.HttpContext.Request.Cookies.ContainsKey("access_token") && userRole == "Admin")
+            {
+                <button class="el-btn-delete" onclick="deleteCategory('@Model.CategoriesId')">Delete</button>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function deleteCategory(categoryId) {
+            $.ajax({
+                url: '@Url.Action("Delete")/' + categoryId,
+                type: 'DELETE',
+                dataType: 'json',
+                success: function (response) {
+                    window.location.href = "/Home/Index";
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Сталася помилка при видаленні. Спробуйте ще раз.');
+                }
+            });
+        }
+    </script>
+}
